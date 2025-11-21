@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 203 75% 13%;
+    --card: 210 40% 98%;
+    --card-foreground: 203 75% 13%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 203 75% 13%;
+    --primary: 207 88% 29%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 207 81% 51%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 203 23% 38%;
+    --accent: 210 100% 95%;
+    --accent-foreground: 207 88% 29%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 207 81% 51%;
+    --radius: 0.5rem;
+    --chart-1: 207 88% 29%;
+    --chart-2: 207 81% 51%;
+    --chart-3: 210 100% 95%;
+    --chart-4: 203 23% 38%;
+    --chart-5: 210 40% 96.1%;
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+    --card: 222 47% 13%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 207 81% 51%;
+    --primary-foreground: 222 47% 11%;
+    --secondary: 207 88% 29%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 222 47% 18%;
+    --muted-foreground: 215 20.2% 70%;
+    --accent: 222 47% 18%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 222 47% 20%;
+    --input: 222 47% 18%;
+    --ring: 207 81% 51%;
+    --chart-1: 207 81% 51%;
+    --chart-2: 207 88% 29%;
+    --chart-3: 222 47% 18%;
+    --chart-4: 215 20.2% 70%;
+    --chart-5: 222 47% 13%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+  }
+  /* Smooth transitions for theme changes */
+  * {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary) / 0.3);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary) / 0.5);
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--primary) / 0.3) hsl(var(--muted));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::-webkit-scrollbar-thumb {
+    transition: none;
+  }
+}
