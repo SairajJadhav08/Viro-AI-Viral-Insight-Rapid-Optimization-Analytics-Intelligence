@@ -1,0 +1,8 @@
+{
+  "virus": "Dengue",
+  "total_variants": 0,
+  "note": "Variant data to be populated from GenBank",
+  "variant_types": ["DENV-1", "DENV-2", "DENV-3", "DENV-4"],
+  "data_sources": ["GenBank", "ViPR"]
+}
+

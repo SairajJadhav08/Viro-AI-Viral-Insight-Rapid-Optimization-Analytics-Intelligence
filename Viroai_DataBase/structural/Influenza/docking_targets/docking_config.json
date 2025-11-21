@@ -1,0 +1,25 @@
+{
+  "virus": "Influenza",
+  "docking_ready": false,
+  "note": "Requires AutoDock or similar for preparation",
+  "targets": [
+    {
+      "pdb_id": "4GMS",
+      "protein": "Neuraminidase",
+      "binding_site": "Active site (catalytic residues)",
+      "recommended_for": "Neuraminidase inhibitors"
+    },
+    {
+      "pdb_id": "1RVX",
+      "protein": "Hemagglutinin",
+      "binding_site": "HA1 subunit",
+      "recommended_for": "Entry inhibitors"
+    }
+  ],
+  "preparation_needed": [
+    "Remove water molecules",
+    "Add hydrogens",
+    "Define binding pocket",
+    "Generate grid box"
+  ]
+}

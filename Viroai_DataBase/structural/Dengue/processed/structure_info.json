@@ -1,0 +1,18 @@
+{
+  "virus": "Dengue",
+  "total_structures": 1,
+  "pdb_files": [
+    "4GSX.pdb"
+  ],
+  "structures": {
+    "4GSX": {
+      "file": "4GSX.pdb",
+      "chains": 1,
+      "note": "NS3 protease - awaiting PDB download"
+    }
+  },
+  "proteins": {
+    "4GSX": "NS3 protease"
+  }
+}
+

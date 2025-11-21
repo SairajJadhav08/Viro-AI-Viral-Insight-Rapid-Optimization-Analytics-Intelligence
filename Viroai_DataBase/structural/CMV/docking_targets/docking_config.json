@@ -1,0 +1,27 @@
+{
+  "virus": "CMV",
+  "docking_ready": false,
+  "note": "Requires AutoDock or similar for preparation",
+  "targets": [
+    {
+      "pdb_id": "3NFS",
+      "protein": "DNA polymerase",
+      "binding_site": "Polymerase active site",
+      "recommended_for": "Nucleotide analogs (Valganciclovir, Cidofovir)"
+    },
+    {
+      "pdb_id": "5TLC",
+      "protein": "Terminase",
+      "binding_site": "ATPase domain",
+      "recommended_for": "Terminase inhibitors (Letermovir)"
+    }
+  ],
+  "preparation_needed": [
+    "Download PDB files from RCSB",
+    "Remove water molecules",
+    "Add hydrogens",
+    "Define binding pocket",
+    "Generate grid box"
+  ]
+}
+

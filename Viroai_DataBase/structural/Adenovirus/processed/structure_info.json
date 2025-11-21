@@ -1,0 +1,18 @@
+{
+  "virus": "Adenovirus",
+  "total_structures": 1,
+  "pdb_files": [
+    "1NLN.pdb"
+  ],
+  "structures": {
+    "1NLN": {
+      "file": "1NLN.pdb",
+      "chains": 1,
+      "note": "Protease - awaiting PDB download"
+    }
+  },
+  "proteins": {
+    "1NLN": "Protease"
+  }
+}
+

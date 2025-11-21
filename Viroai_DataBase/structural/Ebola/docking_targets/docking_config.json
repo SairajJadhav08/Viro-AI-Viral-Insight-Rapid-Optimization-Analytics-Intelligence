@@ -1,0 +1,25 @@
+{
+  "virus": "Ebola",
+  "docking_ready": false,
+  "note": "Requires AutoDock or similar for preparation",
+  "targets": [
+    {
+      "pdb_id": "5JQ3",
+      "protein": "Glycoprotein",
+      "binding_site": "Fusion loop region",
+      "recommended_for": "Entry inhibitors"
+    },
+    {
+      "pdb_id": "5JQ7",
+      "protein": "GP Complex",
+      "binding_site": "GP1/GP2 interface",
+      "recommended_for": "Fusion inhibitors"
+    }
+  ],
+  "preparation_needed": [
+    "Remove water molecules",
+    "Add hydrogens",
+    "Define binding pocket",
+    "Generate grid box"
+  ]
+}

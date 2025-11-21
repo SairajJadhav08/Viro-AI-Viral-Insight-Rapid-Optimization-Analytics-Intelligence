@@ -1,0 +1,13 @@
+{
+  "virus": "RSV",
+  "total_sequences": 80,
+  "avg_length": 15222,
+  "min_length": 15000,
+  "max_length": 15500,
+  "sequence_ids": [
+    "RSV-A2.1",
+    "RSV-Long.1",
+    "RSV-B.1"
+  ]
+}
+

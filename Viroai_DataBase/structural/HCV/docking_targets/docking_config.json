@@ -1,0 +1,27 @@
+{
+  "virus": "HCV",
+  "docking_ready": false,
+  "note": "Requires AutoDock or similar for preparation",
+  "targets": [
+    {
+      "pdb_id": "3KEE",
+      "protein": "NS3/4A protease",
+      "binding_site": "Catalytic triad",
+      "recommended_for": "Protease inhibitors (Simeprevir, Paritaprevir, Glecaprevir)"
+    },
+    {
+      "pdb_id": "4WTG",
+      "protein": "NS5B polymerase",
+      "binding_site": "Active site palm domain",
+      "recommended_for": "Polymerase inhibitors (Dasabuvir)"
+    }
+  ],
+  "preparation_needed": [
+    "Download PDB files from RCSB",
+    "Remove water molecules",
+    "Add hydrogens",
+    "Define binding pocket",
+    "Generate grid box"
+  ]
+}
+

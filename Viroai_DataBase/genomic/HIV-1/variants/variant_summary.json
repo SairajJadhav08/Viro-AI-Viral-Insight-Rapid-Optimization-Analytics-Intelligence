@@ -1,0 +1,8 @@
+{
+  "virus": "HIV-1",
+  "total_variants": 0,
+  "note": "Variant data to be populated from GenBank/GISAID",
+  "variant_types": ["Subtype A", "Subtype B", "Subtype C", "CRFs"],
+  "data_sources": ["Los Alamos HIV Database", "GenBank"]
+}
+

@@ -1,0 +1,5 @@
+virus,protein,pdb_id,drug_name,drug_id,ic50_nm,ki_nm,assay_type,source,pic50
+Adenovirus,DNA Polymerase,N/A,Acyclovir,CID2478,291.29,222.61,IC50,Clinical Trial,6.535674424467303
+Adenovirus,Penton,N/A,Ganciclovir,CID3449,1156.08,1249.61,IC50,PubChem,5.93701211197396
+Adenovirus,Hexon,1P30,Ganciclovir,CID3449,302.27,284.59,EC50,PubChem,6.519604953983232
+Adenovirus,Penton,N/A,Acyclovir,CID2478,39.03,27.64,Kd,Clinical Trial,7.408601448718751

@@ -1,0 +1,47 @@
+{
+  "virus_name": "Rabies",
+  "virus_family": "Rhabdoviridae",
+  "virus_genus": "Lyssavirus",
+  "genome_type": "Negative-sense ssRNA",
+  "genome_size_kb": 12,
+  "clinical_samples": 2,
+  "transmission": "Zoonotic via animal bites (primarily dogs, bats)",
+  "incubation_period_days": "20-90 (can range 7-365 days)",
+  "symptoms": [
+    "Fever",
+    "Headache",
+    "Hydrophobia",
+    "Aerophobia",
+    "Excessive salivation",
+    "Paralysis",
+    "Encephalitis"
+  ],
+  "severity": "Fatal (CFR >99% once symptoms appear)",
+  "outbreak_regions": [
+    "Asia (60% of deaths)",
+    "Africa (36% of deaths)",
+    "Endemic in 150+ countries"
+  ],
+  "diagnostic_methods": [
+    "Direct fluorescent antibody test",
+    "RT-PCR",
+    "Viral isolation",
+    "Serology (antibody detection)"
+  ],
+  "approved_treatments": [
+    "Post-exposure prophylaxis (PEP)",
+    "Rabies immunoglobulin",
+    "Rabies vaccine"
+  ],
+  "vaccines": [
+    "HDCV (Human diploid cell vaccine)",
+    "PCECV (Purified chick embryo cell vaccine)",
+    "RVA (Rabies vaccine adsorbed)"
+  ],
+  "resistance_mechanisms": [
+    "Glycoprotein mutations affecting antibody binding",
+    "P protein mutations affecting interferon antagonism"
+  ],
+  "clinical_notes": "Nearly 100% fatal once clinical symptoms appear. PEP is highly effective if administered before symptom onset. Annual deaths: ~59,000 worldwide."
+}
+

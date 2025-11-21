@@ -1,0 +1,18 @@
+{
+  "virus": "RSV",
+  "total_structures": 1,
+  "pdb_files": [
+    "6UEN.pdb"
+  ],
+  "structures": {
+    "6UEN": {
+      "file": "6UEN.pdb",
+      "chains": 3,
+      "note": "Polymerase - awaiting PDB download"
+    }
+  },
+  "proteins": {
+    "6UEN": "Polymerase"
+  }
+}
+

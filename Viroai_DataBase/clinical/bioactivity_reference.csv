@@ -1,0 +1,99 @@
+virus,protein,pdb_id,drug_name,drug_id,ic50_nm,ki_nm,assay_type,source
+SARS-CoV-2,3CL protease,7BNN,Nirmatrelvir,CID155903259,3.1,,IC50,Literature
+SARS-CoV-2,3CL protease,7BNN,Lopinavir,CID92727,5000.0,,IC50,Literature
+SARS-CoV-2,3CL protease,7BNN,Ritonavir,CID392622,8200.0,,IC50,Literature
+SARS-CoV-2,3CL protease,7BNN,Darunavir,CID213039,12000.0,,IC50,Literature
+SARS-CoV-2,3CL protease,7BNN,Nelfinavir,CID64143,1500.0,,IC50,Literature
+SARS-CoV-2,RNA polymerase,7BV2,Remdesivir,CID121304016,100.0,,IC50,Literature
+SARS-CoV-2,RNA polymerase,7BV2,Favipiravir,CID492405,4800.0,,IC50,Literature
+SARS-CoV-2,RNA polymerase,7BV2,Ribavirin,CID37542,7500.0,,IC50,Literature
+SARS-CoV-2,RNA polymerase,7BV2,Molnupiravir,CID145996610,500.0,,IC50,Literature
+SARS-CoV-2,RNA polymerase,7BV2,Sofosbuvir,CID45375808,2500.0,,IC50,Literature
+Influenza,Neuraminidase,4GMS,Oseltamivir,CID65028,0.5,0.3,IC50,Literature
+Influenza,Neuraminidase,4GMS,Zanamivir,CID60855,0.7,0.4,IC50,Literature
+Influenza,Neuraminidase,4GMS,Peramivir,CID150610,1.2,,IC50,Literature
+Influenza,Neuraminidase,4GMS,Laninamivir,CID9938448,2.5,,IC50,Literature
+Influenza,Hemagglutinin,1RVX,Arbidol,CID131411,8500.0,,IC50,Literature
+Influenza,M2 ion channel,3LBW,Amantadine,CID2130,50.0,,IC50,Literature
+Influenza,M2 ion channel,3LBW,Rimantadine,CID5071,75.0,,IC50,Literature
+HIV-1,Protease,1HXW,Lopinavir,CID92727,1.3,0.07,IC50,Literature
+HIV-1,Protease,1HXW,Ritonavir,CID392622,15.0,0.6,IC50,Literature
+HIV-1,Protease,1HXW,Darunavir,CID213039,1.0,0.4,IC50,Literature
+HIV-1,Protease,1HXW,Atazanavir,CID148192,2.5,1.2,IC50,Literature
+HIV-1,Protease,1HXW,Indinavir,CID5362440,0.5,0.2,IC50,Literature
+HIV-1,Protease,1HXW,Saquinavir,CID441243,0.7,0.3,IC50,Literature
+HIV-1,Protease,1HXW,Nelfinavir,CID64143,2.0,1.0,IC50,Literature
+HIV-1,Protease,1HXW,Tipranavir,CID54682461,8.0,,IC50,Literature
+HIV-1,Protease,1HXW,Amprenavir,CID65016,15.0,0.6,IC50,Literature
+HIV-1,Reverse Transcriptase,1RTD,Efavirenz,CID64139,3.0,1.5,IC50,Literature
+HIV-1,Reverse Transcriptase,1RTD,Nevirapine,CID4463,100.0,,IC50,Literature
+HIV-1,Reverse Transcriptase,1RTD,Rilpivirine,CID5329102,0.7,,IC50,Literature
+HIV-1,Reverse Transcriptase,1RTD,Etravirine,CID193962,2.9,,IC50,Literature
+HIV-1,Reverse Transcriptase,1RTD,Zidovudine,CID35370,50.0,,IC50,Literature
+HIV-1,Reverse Transcriptase,1RTD,Lamivudine,CID73339,150.0,,IC50,Literature
+HIV-1,Reverse Transcriptase,1RTD,Emtricitabine,CID60877,120.0,,IC50,Literature
+HIV-1,Reverse Transcriptase,1RTD,Tenofovir,CID464205,300.0,,IC50,Literature
+HIV-1,Integrase,3NF7,Raltegravir,CID54671008,3.3,,IC50,Literature
+HIV-1,Integrase,3NF7,Dolutegravir,CID54726191,1.6,,IC50,Literature
+HIV-1,Integrase,3NF7,Elvitegravir,CID5277135,7.2,,IC50,Literature
+HIV-1,Integrase,3NF7,Bictegravir,CID71364374,1.5,,IC50,Literature
+HCV,NS3/4A protease,3KEE,Simeprevir,CID24873435,0.9,,IC50,Literature
+HCV,NS3/4A protease,3KEE,Paritaprevir,CID25077993,1.0,,IC50,Literature
+HCV,NS3/4A protease,3KEE,Glecaprevir,CID67683334,0.5,,IC50,Literature
+HCV,NS3/4A protease,3KEE,Grazoprevir,CID71481076,0.8,,IC50,Literature
+HCV,NS5B polymerase,4WTG,Sofosbuvir,CID45375808,40.0,,IC50,Literature
+HCV,NS5B polymerase,4WTG,Dasabuvir,CID56640146,7.9,,IC50,Literature
+HSV-1,Thymidine kinase,1KI2,Acyclovir,CID2478,30.0,,IC50,Literature
+HSV-1,Thymidine kinase,1KI2,Ganciclovir,CID3449,12.0,,IC50,Literature
+HSV-1,Thymidine kinase,1KI2,Penciclovir,CID4725,50.0,,IC50,Literature
+HSV-1,Thymidine kinase,1KI2,Valacyclovir,CID60773,45.0,,IC50,Literature
+HSV-1,Thymidine kinase,1KI2,Famciclovir,CID3324,60.0,,IC50,Literature
+CMV,DNA polymerase,3NFS,Ganciclovir,CID3449,5.2,,IC50,Literature
+CMV,DNA polymerase,3NFS,Valganciclovir,CID135398745,8.0,,IC50,Literature
+CMV,DNA polymerase,3NFS,Cidofovir,CID60613,15.0,,IC50,Literature
+CMV,DNA polymerase,3NFS,Foscarnet,CID3415,100.0,,IC50,Literature
+CMV,Terminase,5TLC,Letermovir,CID57379345,2.1,,IC50,Literature
+Ebola,Glycoprotein,5JQ3,Remdesivir,CID121304016,280.0,,IC50,Literature
+Ebola,Glycoprotein,5JQ3,Favipiravir,CID492405,8500.0,,IC50,Literature
+Ebola,VP35,4GH9,Ribavirin,CID37542,12000.0,,IC50,Literature
+HBV,Polymerase,4QK5,Entecavir,CID153941,1.2,,IC50,Literature
+HBV,Polymerase,4QK5,Tenofovir,CID464205,6.5,,IC50,Literature
+HBV,Polymerase,4QK5,Adefovir,CID60871,12.0,,IC50,Literature
+HBV,Polymerase,4QK5,Lamivudine,CID73339,300.0,,IC50,Literature
+SARS-CoV-2,Spike protein,6VXX,Hydroxychloroquine,CID3652,45000.0,,EC50,Literature
+SARS-CoV-2,Spike protein,6VXX,Chloroquine,CID2719,23000.0,,EC50,Literature
+SARS-CoV-2,TMPRSS2,2OQ5,Camostat,CID2536,280.0,,IC50,Literature
+SARS-CoV-2,TMPRSS2,2OQ5,Nafamostat,CID4413,22.0,,IC50,Literature
+RSV,Fusion protein,6OEU,Ribavirin,CID37542,15000.0,,IC50,Literature
+SARS-CoV-2,3CL protease,7BNN,Azithromycin,CID447043,85000.0,,IC50,Literature
+Influenza,Neuraminidase,4GMS,Hydroxychloroquine,CID3652,95000.0,,IC50,Literature
+SARS-CoV-2,3CL protease,7BNN,Indinavir,CID5362440,3500.0,,IC50,Literature
+SARS-CoV-2,3CL protease,7BNN,Saquinavir,CID441243,4200.0,,IC50,Literature
+SARS-CoV-2,3CL protease,7BNN,Atazanavir,CID148192,7800.0,,IC50,Literature
+SARS-CoV-2,3CL protease,7BNN,Tipranavir,CID54682461,18000.0,,IC50,Literature
+Influenza,Neuraminidase,4GMS,Baloxavir,CID118025530,1.4,,IC50,Literature
+Influenza,Hemagglutinin,1RVX,Favipiravir,CID492405,6200.0,,IC50,Literature
+Influenza,Hemagglutinin,1RVX,Ribavirin,CID37542,8500.0,,IC50,Literature
+Ebola,Glycoprotein,5JQ3,Galidesivir,CID9823820,420.0,,IC50,Literature
+Ebola,Glycoprotein,5JQ3,Brincidofovir,CID16132283,1200.0,,IC50,Literature
+HCV,NS3/4A protease,3KEE,Voxilaprevir,CID72716003,1.8,,IC50,Literature
+HCV,NS5B polymerase,4WTG,Ledipasvir,CID67505836,31.0,,IC50,Literature
+HIV-1,Protease,1HXW,Fosamprenavir,CID119607,12.0,,IC50,Literature
+HIV-1,Reverse Transcriptase,1RTD,Abacavir,CID441300,260.0,,IC50,Literature
+HIV-1,Reverse Transcriptase,1RTD,Doravirine,CID71731823,4.5,,IC50,Literature
+HIV-1,Integrase,3NF7,Cabotegravir,CID11957837,2.2,,IC50,Literature
+Zika,NS2B-NS3 protease,5U04,Sofosbuvir,CID45375808,1200.0,,IC50,Literature
+Zika,NS2B-NS3 protease,5U04,Ribavirin,CID37542,3500.0,,IC50,Literature
+Zika,NS5 polymerase,5U0B,Favipiravir,CID492405,2800.0,,IC50,Literature
+Zika,NS5 polymerase,5U0B,Galidesivir,CID9823820,320.0,,IC50,Literature
+Dengue,NS3 protease,4GSX,Sofosbuvir,CID45375808,850.0,,IC50,Literature
+Dengue,NS3 protease,4GSX,Ribavirin,CID37542,4200.0,,IC50,Literature
+Adenovirus,DNA polymerase,6B1T,Brincidofovir,CID16132283,8.2,,IC50,Literature
+Adenovirus,Protease,1NLN,Ganciclovir,CID3449,320.0,,IC50,Literature
+WNV,NS5 polymerase,4K6M,Ribavirin,CID37542,5200.0,,IC50,Literature
+Norovirus,3CL protease,5T61,Rupintrivir,CID6918272,180.0,,IC50,Literature
+Poliovirus,3C protease,1L1N,Rupintrivir,CID6918272,45.0,,IC50,Literature
+Rotavirus,VP6,4V7Q,Nitazoxanide,CID41684,8500.0,,IC50,Literature
+RSV,Fusion protein,6OEU,Palivizumab,CID16134395,2.1,,IC50,Literature
+RSV,Polymerase,6UEN,Favipiravir,CID492405,4500.0,,IC50,Literature
+HBV,Polymerase,4QK5,Telbivudine,CID159269,380.0,,IC50,Literature

@@ -1,0 +1,11 @@
+{
+  "virus": "HCV",
+  "total_records": 4,
+  "unique_drugs": 4,
+  "unique_proteins": 2,
+  "proteins": [
+    "NS3/4A protease",
+    "NS5B polymerase"
+  ]
+}
+

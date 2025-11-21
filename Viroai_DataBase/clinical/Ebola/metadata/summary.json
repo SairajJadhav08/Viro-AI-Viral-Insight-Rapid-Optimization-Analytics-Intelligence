@@ -1,0 +1,10 @@
+{
+  "virus": "Ebola",
+  "total_records": 5,
+  "unique_drugs": 5,
+  "unique_proteins": 2,
+  "proteins": [
+    "Glycoprotein",
+    "VP35"
+  ]
+}

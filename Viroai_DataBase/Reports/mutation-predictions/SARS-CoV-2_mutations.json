@@ -1,0 +1,35 @@
+[
+  {
+    "mutation_id": "MUT1",
+    "mutation": "L327R",
+    "location": "Spike Protein",
+    "probability": 0.9,
+    "estimated_months": 18,
+    "impact": "HIGH",
+    "drug_resistance_risk": "Low",
+    "transmissibility_change": "-5%",
+    "vaccine_escape": "Medium"
+  },
+  {
+    "mutation_id": "MUT2",
+    "mutation": "N120E",
+    "location": "Spike Protein",
+    "probability": 0.8,
+    "estimated_months": 13,
+    "impact": "HIGH",
+    "drug_resistance_risk": "Medium",
+    "transmissibility_change": "+10%",
+    "vaccine_escape": "Low"
+  },
+  {
+    "mutation_id": "MUT3",
+    "mutation": "L166C",
+    "location": "Spike Protein",
+    "probability": 0.8,
+    "estimated_months": 4,
+    "impact": "LOW",
+    "drug_resistance_risk": "Low",
+    "transmissibility_change": "+5%",
+    "vaccine_escape": "Medium"
+  }
+]

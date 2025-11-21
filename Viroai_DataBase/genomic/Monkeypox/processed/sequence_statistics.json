@@ -1,0 +1,20 @@
+{
+  "virus_name": "Monkeypox",
+  "genome_type": "dsDNA",
+  "genome_length": 196858,
+  "gc_content": 33.2,
+  "protein_coding_genes": 190,
+  "reference_strain": "MPXV-M5312_HM12_Rivers",
+  "ncbi_accession": "NC_063383",
+  "genbank_ids": [
+    "NC_063383",
+    "ON563414",
+    "ON676708"
+  ],
+  "sequencing_date": "2022-2024",
+  "sequencing_method": "Illumina NextSeq, Oxford Nanopore",
+  "notable_features": "Contains genes for immune evasion, host range determination, and virulence factors",
+  "coding_sequences": 190,
+  "non_coding_regions": "Terminal inverted repeats (TIRs) of ~6kb"
+}
+

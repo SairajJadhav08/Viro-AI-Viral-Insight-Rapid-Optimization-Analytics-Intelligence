@@ -1,0 +1,25 @@
+{
+  "virus": "CMV",
+  "total_structures": 2,
+  "pdb_files": [
+    "3NFS.pdb",
+    "5TLC.pdb"
+  ],
+  "structures": {
+    "3NFS": {
+      "file": "3NFS.pdb",
+      "chains": 1,
+      "note": "DNA polymerase - awaiting PDB download"
+    },
+    "5TLC": {
+      "file": "5TLC.pdb",
+      "chains": 2,
+      "note": "Terminase - awaiting PDB download"
+    }
+  },
+  "proteins": {
+    "3NFS": "DNA polymerase",
+    "5TLC": "Terminase"
+  }
+}
+

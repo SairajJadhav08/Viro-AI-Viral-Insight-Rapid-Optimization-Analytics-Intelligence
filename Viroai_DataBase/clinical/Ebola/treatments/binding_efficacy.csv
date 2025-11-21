@@ -1,0 +1,6 @@
+virus,protein,pdb_id,drug_name,drug_id,ic50_nm,ki_nm,assay_type,source
+Ebola,Glycoprotein,5JQ3,Remdesivir,CID121304016,280.0,,IC50,Literature
+Ebola,Glycoprotein,5JQ3,Favipiravir,CID492405,8500.0,,IC50,Literature
+Ebola,VP35,4GH9,Ribavirin,CID37542,12000.0,,IC50,Literature
+Ebola,Glycoprotein,5JQ3,Galidesivir,CID9823820,420.0,,IC50,Literature
+Ebola,Glycoprotein,5JQ3,Brincidofovir,CID16132283,1200.0,,IC50,Literature

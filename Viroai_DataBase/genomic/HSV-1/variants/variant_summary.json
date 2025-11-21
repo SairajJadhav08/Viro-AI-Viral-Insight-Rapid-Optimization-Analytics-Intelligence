@@ -1,0 +1,8 @@
+{
+  "virus": "HSV-1",
+  "total_variants": 0,
+  "note": "Variant data to be populated from GenBank",
+  "variant_types": ["Strain 17", "Strain F", "Strain KOS"],
+  "data_sources": ["GenBank", "NCBI Virus"]
+}
+

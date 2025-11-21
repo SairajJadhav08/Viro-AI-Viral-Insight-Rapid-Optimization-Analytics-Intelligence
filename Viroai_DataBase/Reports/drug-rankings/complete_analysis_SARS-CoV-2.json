@@ -1,0 +1,125 @@
+{
+  "analysis_date": "2025-10-09T19:50:02.318359",
+  "virus": "SARS-CoV-2",
+  "protein": "Spike Protein (6VXX)",
+  "deadliness_assessment": {
+    "overall_score": 71,
+    "risk_level": "HIGH",
+    "components": {
+      "transmissibility": 82,
+      "immune_evasion": 75,
+      "mortality_rate": 65,
+      "infection_severity": 74
+    }
+  },
+  "mutation_predictions": [
+    {
+      "mutation_id": "MUT1",
+      "mutation": "L327R",
+      "location": "Spike Protein",
+      "probability": 0.9,
+      "estimated_months": 18,
+      "impact": "HIGH",
+      "drug_resistance_risk": "Low",
+      "transmissibility_change": "-5%",
+      "vaccine_escape": "Medium"
+    },
+    {
+      "mutation_id": "MUT2",
+      "mutation": "N120E",
+      "location": "Spike Protein",
+      "probability": 0.8,
+      "estimated_months": 13,
+      "impact": "HIGH",
+      "drug_resistance_risk": "Medium",
+      "transmissibility_change": "+10%",
+      "vaccine_escape": "Low"
+    },
+    {
+      "mutation_id": "MUT3",
+      "mutation": "L166C",
+      "location": "Spike Protein",
+      "probability": 0.8,
+      "estimated_months": 4,
+      "impact": "LOW",
+      "drug_resistance_risk": "Low",
+      "transmissibility_change": "+5%",
+      "vaccine_escape": "Medium"
+    }
+  ],
+  "drug_screening": {
+    "total_drugs_screened": 190,
+    "best_candidate": {
+      "name": "1,1,1,3-Tetrachloroheptadecane",
+      "ic50_nm": 0.6801488917927854,
+      "binding_score": 1.0,
+      "strength": "strong"
+    },
+    "top_10": [
+      {
+        "rank": 1,
+        "name": "1,1,1,3-Tetrachloroheptadecane",
+        "ic50_nm": 0.6801488917927854,
+        "binding_score": 1.0
+      },
+      {
+        "rank": 2,
+        "name": "Glecaprevir",
+        "ic50_nm": 2.7895294016991796,
+        "binding_score": 0.864147478502071
+      },
+      {
+        "rank": 3,
+        "name": "(1S,2R)-1-benzyl-3-(dimethylamino)-2-methyl-1-phenylpropyl propanoate hydrochloride",
+        "ic50_nm": 3.1034092542115705,
+        "binding_score": 0.8538834932118397
+      },
+      {
+        "rank": 4,
+        "name": "(1S,2R)-1-benzyl-3-(dimethylamino)-2-methyl-1-phenylpropyl propanoate hydrochloride",
+        "ic50_nm": 3.1034092542115705,
+        "binding_score": 0.8538834932118397
+      },
+      {
+        "rank": 5,
+        "name": "Oseltamivir",
+        "ic50_nm": 3.131670698494715,
+        "binding_score": 0.8530108663170832
+      },
+      {
+        "rank": 6,
+        "name": "(4R)-4-[(4R,5S)-2,2-dimethyl-5-[(1R,2R)-2-methyl-1-triethylsilyloxybut-3-enyl]-1,3-dioxolan-4-yl]-4-methoxybutanal",
+        "ic50_nm": 3.1860922378142384,
+        "binding_score": 0.8513524577508217
+      },
+      {
+        "rank": 7,
+        "name": "Cabotegravir",
+        "ic50_nm": 3.1860922378142384,
+        "binding_score": 0.8513524577508217
+      },
+      {
+        "rank": 8,
+        "name": "Grazoprevir",
+        "ic50_nm": 3.649842490378551,
+        "binding_score": 0.8382718739942052
+      },
+      {
+        "rank": 9,
+        "name": "lauroyl-D-Dap-D-Dap-D-Dap-D-Dap-D-Dap-D-Dap-D-Dap-D-Dap-Phe-OH",
+        "ic50_nm": 3.649842490378551,
+        "binding_score": 0.8382718739942052
+      },
+      {
+        "rank": 10,
+        "name": "Cilastatin",
+        "ic50_nm": 3.7274045618731426,
+        "binding_score": 0.8362477161823476
+      }
+    ]
+  },
+  "visualizations": {
+    "3d_docking": "Viroai_DataBase/Reports/3d-visualizations/SARS-CoV-2_1,1,1,3-Tetrachloroh_binding.png",
+    "mutation_predictions": "Viroai_DataBase/Reports/mutation-predictions/SARS-CoV-2_mutations.json"
+  }
+}

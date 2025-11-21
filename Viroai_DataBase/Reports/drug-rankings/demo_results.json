@@ -1,0 +1,99 @@
+{
+  "virus": "SARS-CoV-2",
+  "protein": "Spike Protein (6VXX)",
+  "analysis_date": "2025-10-13T16:13:34.978456",
+  "deadliness_score": 71,
+  "risk_level": "HIGH",
+  "top_10_drugs": [
+    {
+      "rank": 1,
+      "drug_name": "Nirmatrelvir",
+      "drug_id": "CID155903259",
+      "binding_score": 1.0,
+      "predicted_ic50_nm": 16.990547017220997,
+      "strength": "strong",
+      "smiles": "CC1(C2C1C(N(C2)C(=O)C(C(C)(C)C)NC(=O)C(F)(F)F)C(=O)NC(CC3CCNC3=O)C#N)C"
+    },
+    {
+      "rank": 2,
+      "drug_name": "Zanamivir",
+      "drug_id": "CID60855",
+      "binding_score": 0.8509816426195075,
+      "predicted_ic50_nm": 34.904522934590425,
+      "strength": "strong",
+      "smiles": "CC(=O)NC1C(C=C(OC1C(C(CO)O)O)C(=O)O)N=C(N)N"
+    },
+    {
+      "rank": 3,
+      "drug_name": "Nafamostat",
+      "drug_id": "CID4413",
+      "binding_score": 0.7947791631409235,
+      "predicted_ic50_nm": 45.793861685487975,
+      "strength": "strong",
+      "smiles": "C1=CC(=CC=C1C(=O)OC2=CC3=C(C=C2)C=C(C=C3)C(=N)N)N=C(N)N"
+    },
+    {
+      "rank": 4,
+      "drug_name": "Nafamostat",
+      "drug_id": "CID4413",
+      "binding_score": 0.7947791631409235,
+      "predicted_ic50_nm": 45.793861685487975,
+      "strength": "strong",
+      "smiles": "C1=CC(=CC=C1C(=O)OC2=CC3=C(C=C2)C=C(C=C3)C(=N)N)N=C(N)N"
+    },
+    {
+      "rank": 5,
+      "drug_name": "Oseltamivir",
+      "drug_id": "CID65028",
+      "binding_score": 0.7928071603015002,
+      "predicted_ic50_nm": 46.23224444613522,
+      "strength": "strong",
+      "smiles": "CCC(CC)OC1C=C(CC(C1NC(=O)C)N)C(=O)OCC"
+    },
+    {
+      "rank": 6,
+      "drug_name": "Doravirine",
+      "drug_id": "CID71731823",
+      "binding_score": 0.7716574910254751,
+      "predicted_ic50_nm": 51.20611007395651,
+      "strength": "strong",
+      "smiles": "CC1C2=C(C=CC(=C2)F)C(=O)N(CC3=NN(C(=C3C4=CC(=C(N=C4)N)O1)C#N)C)C"
+    },
+    {
+      "rank": 7,
+      "drug_name": "Lorlatinib",
+      "drug_id": "CID71731823",
+      "binding_score": 0.7716574910254751,
+      "predicted_ic50_nm": 51.20611007395651,
+      "strength": "strong",
+      "smiles": "CC1C2=C(C=CC(=C2)F)C(=O)N(CC3=NN(C(=C3C4=CC(=C(N=C4)N)O1)C#N)C)C"
+    },
+    {
+      "rank": 8,
+      "drug_name": "Cabotegravir",
+      "drug_id": "CID11957837",
+      "binding_score": 0.7124816668705104,
+      "predicted_ic50_nm": 68.15317599425384,
+      "strength": "strong",
+      "smiles": "CC[Si](CC)(CC)OC(C1C(OC(O1)(C)C)C(CCC=O)OC)C(C)C=C"
+    },
+    {
+      "rank": 9,
+      "drug_name": "(4R)-4-[(4R,5S)-2,2-dimethyl-5-[(1R,2R)-2-methyl-1-triethylsilyloxybut-3-enyl]-1,3-dioxolan-4-yl]-4-methoxybutanal",
+      "drug_id": "CID11957837",
+      "binding_score": 0.7124816668705104,
+      "predicted_ic50_nm": 68.15317599425384,
+      "strength": "strong",
+      "smiles": "CC[Si](CC)(CC)OC(C1C(OC(O1)(C)C)C(CCC=O)OC)C(C)C=C"
+    },
+    {
+      "rank": 10,
+      "drug_name": "Efavirenz",
+      "drug_id": "CID64139",
+      "binding_score": 0.7015569583902206,
+      "predicted_ic50_nm": 71.84699652996518,
+      "strength": "strong",
+      "smiles": "C1CC1C#CC2(C3=C(C=CC(=C3)Cl)NC(=O)O2)C(F)(F)F"
+    }
+  ]
+}

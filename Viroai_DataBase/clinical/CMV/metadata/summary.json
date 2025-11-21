@@ -1,0 +1,11 @@
+{
+  "virus": "CMV",
+  "total_records": 3,
+  "unique_drugs": 3,
+  "unique_proteins": 2,
+  "proteins": [
+    "DNA polymerase",
+    "Terminase"
+  ]
+}
+

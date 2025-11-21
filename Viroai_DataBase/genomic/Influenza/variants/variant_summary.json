@@ -1,0 +1,22 @@
+{
+  "virus": "Influenza",
+  "note": "Variant calling requires alignment to reference genome",
+  "known_strains": [
+    "H1N1",
+    "H3N2",
+    "H5N1",
+    "H7N9"
+  ],
+  "key_segments": [
+    "HA",
+    "NA",
+    "PB1",
+    "PB2",
+    "PA",
+    "NP",
+    "M",
+    "NS"
+  ],
+  "reference_genome": "Multiple_references",
+  "analysis_pending": true
+}

@@ -1,0 +1,14 @@
+{
+  "virus": "Dengue",
+  "total_sequences": 100,
+  "avg_length": 10723,
+  "min_length": 10500,
+  "max_length": 11000,
+  "sequence_ids": [
+    "DENV1.1",
+    "DENV2.1",
+    "DENV3.1",
+    "DENV4.1"
+  ]
+}
+

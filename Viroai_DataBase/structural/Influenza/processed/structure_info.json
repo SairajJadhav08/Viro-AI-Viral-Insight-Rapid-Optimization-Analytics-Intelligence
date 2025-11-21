@@ -1,0 +1,22 @@
+{
+  "virus": "Influenza",
+  "total_structures": 2,
+  "pdb_files": [
+    "1RVX.pdb",
+    "4GMS.pdb"
+  ],
+  "structures": {
+    "1RVX": {
+      "file": "1RVX.pdb",
+      "chains": 18
+    },
+    "4GMS": {
+      "file": "4GMS.pdb",
+      "chains": 24
+    }
+  },
+  "proteins": {
+    "1RVX": "Hemagglutinin",
+    "4GMS": "Neuraminidase"
+  }
+}

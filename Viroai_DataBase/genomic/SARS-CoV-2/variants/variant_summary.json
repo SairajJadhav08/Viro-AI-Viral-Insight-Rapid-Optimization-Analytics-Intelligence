@@ -1,0 +1,19 @@
+{
+  "virus": "SARS-CoV-2",
+  "note": "Variant calling requires alignment to reference genome",
+  "known_variants": [
+    "Alpha",
+    "Beta",
+    "Gamma",
+    "Delta",
+    "Omicron"
+  ],
+  "key_mutations": [
+    "D614G",
+    "N501Y",
+    "E484K",
+    "L452R"
+  ],
+  "reference_genome": "NC_045512.2",
+  "analysis_pending": true
+}

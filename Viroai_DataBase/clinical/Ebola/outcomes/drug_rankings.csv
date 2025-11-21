@@ -1,0 +1,6 @@
+drug_name,drug_id,avg_ic50_nm,best_ic50_nm,num_targets,rank
+Remdesivir,CID121304016,280.0,280.0,1,1
+Galidesivir,CID9823820,420.0,420.0,1,2
+Brincidofovir,CID16132283,1200.0,1200.0,1,3
+Favipiravir,CID492405,8500.0,8500.0,1,4
+Ribavirin,CID37542,12000.0,12000.0,1,5

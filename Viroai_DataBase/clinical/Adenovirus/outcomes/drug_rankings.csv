@@ -1,0 +1,3 @@
+drug_name,drug_id,avg_ic50_nm,best_ic50_nm,num_targets,rank
+Ganciclovir,CID3449,636.257,6.68,20,1
+Acyclovir,CID2478,390.2846666666666,12.84,30,2

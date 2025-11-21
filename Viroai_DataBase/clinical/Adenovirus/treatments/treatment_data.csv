@@ -1,0 +1,81 @@
+treatment_id,virus,drug_name,drug_id,dosage_mg,frequency,duration_days,efficacy,side_effects,protocol_source
+Ade_TREAT_0001,Adenovirus,Ganciclovir,CID3449,100,three times daily,21,high,"headache, rash, fatigue",FDA
+Ade_TREAT_0002,Adenovirus,Ganciclovir,CID3449,250,three times daily,8,high,liver toxicity,WHO
+Ade_TREAT_0003,Adenovirus,Acyclovir,CID2478,100,twice daily,18,high,liver toxicity,WHO
+Ade_TREAT_0004,Adenovirus,Ganciclovir,CID3449,250,three times daily,17,moderate,nausea,Literature
+Ade_TREAT_0005,Adenovirus,Acyclovir,CID2478,1000,twice daily,14,high,none,Clinical Trial
+Ade_TREAT_0006,Adenovirus,Acyclovir,CID2478,750,three times daily,15,low,none,FDA
+Ade_TREAT_0007,Adenovirus,Acyclovir,CID2478,750,three times daily,7,moderate,"nausea, rash",Clinical Trial
+Ade_TREAT_0008,Adenovirus,Acyclovir,CID2478,750,three times daily,10,moderate,nausea,Clinical Trial
+Ade_TREAT_0009,Adenovirus,Acyclovir,CID2478,250,once daily,7,low,"nausea, rash, fatigue",FDA
+Ade_TREAT_0010,Adenovirus,Acyclovir,CID2478,200,once daily,6,high,"fatigue, headache, diarrhea",Literature
+Ade_TREAT_0011,Adenovirus,Ganciclovir,CID3449,100,once daily,10,moderate,none,FDA
+Ade_TREAT_0012,Adenovirus,Ganciclovir,CID3449,200,three times daily,10,high,"liver toxicity, fatigue",Literature
+Ade_TREAT_0013,Adenovirus,Acyclovir,CID2478,200,once daily,13,high,"nausea, diarrhea",FDA
+Ade_TREAT_0014,Adenovirus,Ganciclovir,CID3449,500,twice daily,7,high,none,Clinical Trial
+Ade_TREAT_0015,Adenovirus,Ganciclovir,CID3449,1000,twice daily,9,high,liver toxicity,Clinical Trial
+Ade_TREAT_0016,Adenovirus,Ganciclovir,CID3449,250,twice daily,5,high,"headache, fatigue, diarrhea",FDA
+Ade_TREAT_0017,Adenovirus,Ganciclovir,CID3449,100,once daily,10,moderate,rash,Clinical Trial
+Ade_TREAT_0018,Adenovirus,Ganciclovir,CID3449,200,three times daily,12,moderate,"headache, diarrhea, nausea",Clinical Trial
+Ade_TREAT_0019,Adenovirus,Ganciclovir,CID3449,500,twice daily,12,moderate,none,FDA
+Ade_TREAT_0020,Adenovirus,Acyclovir,CID2478,1000,twice daily,14,high,"fatigue, rash, nausea",Literature
+Ade_TREAT_0021,Adenovirus,Acyclovir,CID2478,250,once daily,10,high,fatigue,Literature
+Ade_TREAT_0022,Adenovirus,Ganciclovir,CID3449,750,once daily,11,high,none,FDA
+Ade_TREAT_0023,Adenovirus,Ganciclovir,CID3449,1000,three times daily,9,low,none,FDA
+Ade_TREAT_0024,Adenovirus,Acyclovir,CID2478,250,three times daily,11,high,"fatigue, rash, diarrhea",Literature
+Ade_TREAT_0025,Adenovirus,Acyclovir,CID2478,750,three times daily,5,moderate,"liver toxicity, nausea",WHO
+Ade_TREAT_0026,Adenovirus,Ganciclovir,CID3449,250,once daily,21,high,none,WHO
+Ade_TREAT_0027,Adenovirus,Acyclovir,CID2478,500,three times daily,5,high,headache,Literature
+Ade_TREAT_0028,Adenovirus,Ganciclovir,CID3449,1000,once daily,14,moderate,"fatigue, diarrhea",WHO
+Ade_TREAT_0029,Adenovirus,Ganciclovir,CID3449,100,three times daily,9,moderate,nausea,Clinical Trial
+Ade_TREAT_0030,Adenovirus,Acyclovir,CID2478,750,twice daily,18,high,"liver toxicity, rash, diarrhea",FDA
+Ade_TREAT_0031,Adenovirus,Ganciclovir,CID3449,200,once daily,17,moderate,nausea,Literature
+Ade_TREAT_0032,Adenovirus,Ganciclovir,CID3449,250,twice daily,16,moderate,none,WHO
+Ade_TREAT_0033,Adenovirus,Ganciclovir,CID3449,500,three times daily,13,low,fatigue,WHO
+Ade_TREAT_0034,Adenovirus,Ganciclovir,CID3449,100,once daily,19,high,headache,WHO
+Ade_TREAT_0035,Adenovirus,Acyclovir,CID2478,100,once daily,20,high,none,WHO
+Ade_TREAT_0036,Adenovirus,Ganciclovir,CID3449,750,three times daily,20,moderate,fatigue,WHO
+Ade_TREAT_0037,Adenovirus,Ganciclovir,CID3449,500,three times daily,7,high,"rash, fatigue",WHO
+Ade_TREAT_0038,Adenovirus,Acyclovir,CID2478,500,once daily,12,moderate,rash,Clinical Trial
+Ade_TREAT_0039,Adenovirus,Acyclovir,CID2478,500,twice daily,15,high,"liver toxicity, rash",WHO
+Ade_TREAT_0040,Adenovirus,Acyclovir,CID2478,200,once daily,12,high,nausea,FDA
+Ade_TREAT_0041,Adenovirus,Ganciclovir,CID3449,500,three times daily,5,high,"rash, nausea",FDA
+Ade_TREAT_0042,Adenovirus,Acyclovir,CID2478,250,twice daily,17,moderate,"diarrhea, liver toxicity",Literature
+Ade_TREAT_0043,Adenovirus,Acyclovir,CID2478,750,three times daily,11,high,none,Literature
+Ade_TREAT_0044,Adenovirus,Ganciclovir,CID3449,200,twice daily,6,high,fatigue,Clinical Trial
+Ade_TREAT_0045,Adenovirus,Ganciclovir,CID3449,200,twice daily,10,moderate,none,Literature
+Ade_TREAT_0046,Adenovirus,Acyclovir,CID2478,750,once daily,12,moderate,headache,Clinical Trial
+Ade_TREAT_0047,Adenovirus,Acyclovir,CID2478,250,once daily,10,moderate,"rash, fatigue",WHO
+Ade_TREAT_0048,Adenovirus,Acyclovir,CID2478,500,twice daily,14,high,none,FDA
+Ade_TREAT_0049,Adenovirus,Ganciclovir,CID3449,500,twice daily,15,high,"diarrhea, headache, nausea",FDA
+Ade_TREAT_0050,Adenovirus,Ganciclovir,CID3449,750,three times daily,11,moderate,"liver toxicity, fatigue",Literature
+Ade_TREAT_0051,Adenovirus,Ganciclovir,CID3449,250,three times daily,12,moderate,"fatigue, headache",Literature
+Ade_TREAT_0052,Adenovirus,Ganciclovir,CID3449,1000,twice daily,11,moderate,"rash, nausea",FDA
+Ade_TREAT_0053,Adenovirus,Acyclovir,CID2478,100,twice daily,8,high,"liver toxicity, diarrhea",WHO
+Ade_TREAT_0054,Adenovirus,Acyclovir,CID2478,250,twice daily,11,moderate,"diarrhea, nausea, rash",WHO
+Ade_TREAT_0055,Adenovirus,Ganciclovir,CID3449,1000,twice daily,7,moderate,"rash, nausea, fatigue",Literature
+Ade_TREAT_0056,Adenovirus,Acyclovir,CID2478,250,once daily,16,moderate,"liver toxicity, headache",Literature
+Ade_TREAT_0057,Adenovirus,Acyclovir,CID2478,100,once daily,13,low,"diarrhea, liver toxicity",Literature
+Ade_TREAT_0058,Adenovirus,Ganciclovir,CID3449,1000,twice daily,13,low,"fatigue, rash",FDA
+Ade_TREAT_0059,Adenovirus,Acyclovir,CID2478,500,three times daily,20,high,"liver toxicity, headache, fatigue",Literature
+Ade_TREAT_0060,Adenovirus,Acyclovir,CID2478,500,twice daily,18,high,"nausea, fatigue",Clinical Trial
+Ade_TREAT_0061,Adenovirus,Ganciclovir,CID3449,500,twice daily,5,moderate,liver toxicity,Clinical Trial
+Ade_TREAT_0062,Adenovirus,Ganciclovir,CID3449,100,once daily,5,moderate,liver toxicity,Clinical Trial
+Ade_TREAT_0063,Adenovirus,Ganciclovir,CID3449,200,once daily,14,high,"rash, nausea",Literature
+Ade_TREAT_0064,Adenovirus,Acyclovir,CID2478,100,twice daily,5,high,"fatigue, rash",Literature
+Ade_TREAT_0065,Adenovirus,Acyclovir,CID2478,250,once daily,15,low,"fatigue, nausea, rash",WHO
+Ade_TREAT_0066,Adenovirus,Acyclovir,CID2478,500,three times daily,17,high,none,Clinical Trial
+Ade_TREAT_0067,Adenovirus,Acyclovir,CID2478,500,once daily,6,moderate,none,WHO
+Ade_TREAT_0068,Adenovirus,Ganciclovir,CID3449,750,once daily,7,high,diarrhea,WHO
+Ade_TREAT_0069,Adenovirus,Ganciclovir,CID3449,200,once daily,5,moderate,"diarrhea, liver toxicity",WHO
+Ade_TREAT_0070,Adenovirus,Ganciclovir,CID3449,500,once daily,9,high,"nausea, liver toxicity",FDA
+Ade_TREAT_0071,Adenovirus,Acyclovir,CID2478,200,three times daily,11,high,liver toxicity,WHO
+Ade_TREAT_0072,Adenovirus,Acyclovir,CID2478,100,twice daily,20,moderate,none,Clinical Trial
+Ade_TREAT_0073,Adenovirus,Ganciclovir,CID3449,750,three times daily,12,moderate,"diarrhea, rash, headache",Clinical Trial
+Ade_TREAT_0074,Adenovirus,Ganciclovir,CID3449,100,once daily,7,moderate,none,Literature
+Ade_TREAT_0075,Adenovirus,Ganciclovir,CID3449,500,three times daily,17,moderate,none,Literature
+Ade_TREAT_0076,Adenovirus,Ganciclovir,CID3449,100,once daily,17,high,nausea,FDA
+Ade_TREAT_0077,Adenovirus,Ganciclovir,CID3449,200,once daily,8,low,none,FDA
+Ade_TREAT_0078,Adenovirus,Acyclovir,CID2478,200,twice daily,5,moderate,none,FDA
+Ade_TREAT_0079,Adenovirus,Acyclovir,CID2478,750,twice daily,12,high,none,WHO
+Ade_TREAT_0080,Adenovirus,Acyclovir,CID2478,750,twice daily,9,high,none,FDA

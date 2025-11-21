@@ -1,0 +1,18 @@
+{
+  "virus": "HSV-1",
+  "total_structures": 1,
+  "pdb_files": [
+    "1KI2.pdb"
+  ],
+  "structures": {
+    "1KI2": {
+      "file": "1KI2.pdb",
+      "chains": 1,
+      "note": "Thymidine kinase - awaiting PDB download"
+    }
+  },
+  "proteins": {
+    "1KI2": "Thymidine kinase"
+  }
+}
+

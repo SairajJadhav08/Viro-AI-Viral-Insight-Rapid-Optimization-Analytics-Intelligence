@@ -1,0 +1,22 @@
+{
+  "virus": "Ebola",
+  "total_structures": 2,
+  "pdb_files": [
+    "5JQ3.pdb",
+    "5JQ7.pdb"
+  ],
+  "structures": {
+    "5JQ3": {
+      "file": "5JQ3.pdb",
+      "chains": 3
+    },
+    "5JQ7": {
+      "file": "5JQ7.pdb",
+      "chains": 3
+    }
+  },
+  "proteins": {
+    "5JQ3": "Glycoprotein",
+    "5JQ7": "GP Complex"
+  }
+}

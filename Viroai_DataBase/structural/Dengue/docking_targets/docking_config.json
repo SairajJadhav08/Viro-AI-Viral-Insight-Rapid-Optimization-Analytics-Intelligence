@@ -1,0 +1,21 @@
+{
+  "virus": "Dengue",
+  "docking_ready": false,
+  "note": "Requires AutoDock or similar for preparation",
+  "targets": [
+    {
+      "pdb_id": "4GSX",
+      "protein": "NS3 protease",
+      "binding_site": "Active site",
+      "recommended_for": "Protease inhibitors (Ribavirin)"
+    }
+  ],
+  "preparation_needed": [
+    "Download PDB files from RCSB",
+    "Remove water molecules",
+    "Add hydrogens",
+    "Define binding pocket",
+    "Generate grid box"
+  ]
+}
+

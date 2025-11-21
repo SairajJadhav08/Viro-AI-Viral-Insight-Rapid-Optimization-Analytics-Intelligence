@@ -1,0 +1,31 @@
+{
+  "virus": "SARS-CoV-2",
+  "docking_ready": false,
+  "note": "Requires AutoDock or similar for preparation",
+  "targets": [
+    {
+      "pdb_id": "7BNN",
+      "protein": "Main Protease (Mpro)",
+      "binding_site": "Active site (HIS41, CYS145)",
+      "recommended_for": "Protease inhibitors"
+    },
+    {
+      "pdb_id": "6VXX",
+      "protein": "Spike Protein",
+      "binding_site": "RBD region",
+      "recommended_for": "Entry inhibitors"
+    },
+    {
+      "pdb_id": "6VSB",
+      "protein": "Spike RBD",
+      "binding_site": "ACE2 binding interface",
+      "recommended_for": "Neutralizing compounds"
+    }
+  ],
+  "preparation_needed": [
+    "Remove water molecules",
+    "Add hydrogens",
+    "Define binding pocket",
+    "Generate grid box"
+  ]
+}

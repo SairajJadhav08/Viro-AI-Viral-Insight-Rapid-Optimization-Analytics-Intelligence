@@ -1,0 +1,59 @@
+{
+  "virus_name": "Rabies",
+  "docking_targets": [
+    {
+      "target_name": "Glycoprotein_G",
+      "pdb_id": "6LGX",
+      "binding_site_residues": ["W261", "Y265", "K330", "G333", "R333"],
+      "binding_site_center": {
+        "x": 28.5,
+        "y": 41.2,
+        "z": 35.8
+      },
+      "box_size": {
+        "x": 22,
+        "y": 22,
+        "z": 22
+      },
+      "known_inhibitors": ["Neutralizing antibodies (17C7, CR57)", "Small molecule entry inhibitors"],
+      "binding_affinity_range": "-9.2 to -12.5 kcal/mol"
+    },
+    {
+      "target_name": "RNA_Polymerase_L",
+      "pdb_id": "7U1P",
+      "binding_site_residues": ["D1006", "D1007", "D1109", "E1111"],
+      "binding_site_center": {
+        "x": 52.3,
+        "y": 38.7,
+        "z": 42.1
+      },
+      "box_size": {
+        "x": 28,
+        "y": 28,
+        "z": 28
+      },
+      "known_inhibitors": ["Favipiravir (T-705)", "Ribavirin", "Remdesivir analogs"],
+      "binding_affinity_range": "-7.5 to -10.8 kcal/mol"
+    },
+    {
+      "target_name": "Phosphoprotein_P",
+      "pdb_id": "2YXE",
+      "binding_site_residues": ["L145", "L148", "M152", "Y188"],
+      "binding_site_center": {
+        "x": 18.9,
+        "y": 25.4,
+        "z": 31.2
+      },
+      "box_size": {
+        "x": 18,
+        "y": 18,
+        "z": 18
+      },
+      "known_inhibitors": ["Experimental STAT1/2 interaction inhibitors"],
+      "binding_affinity_range": "-6.8 to -9.5 kcal/mol"
+    }
+  ],
+  "software_compatibility": ["AutoDock Vina", "AutoDock 4", "Glide", "GOLD"],
+  "preparation_notes": "Glycoprotein exists as trimer in native state. Consider multimeric docking. Remove glycans if not relevant to binding."
+}
+

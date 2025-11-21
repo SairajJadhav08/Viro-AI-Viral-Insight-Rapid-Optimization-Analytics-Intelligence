@@ -1,0 +1,78 @@
+{
+  "targets": [
+    "mw_change",
+    "logp_change",
+    "delta_be",
+    "delta_rmsd",
+    "delta_solubility",
+    "metabolic_stability",
+    "absorption_change",
+    "clearance_change",
+    "sas_score",
+    "structural_score",
+    "binding_score",
+    "overall_viability"
+  ],
+  "metrics": {
+    "mw_change": {
+      "test_rmse": 0.5397806643027201,
+      "test_r2": 0.9955430537792486,
+      "test_mae": 0.4159650991129919
+    },
+    "logp_change": {
+      "test_rmse": 0.07757718289622526,
+      "test_r2": 0.9461803578675683,
+      "test_mae": 0.0613873896207676
+    },
+    "delta_be": {
+      "test_rmse": 0.13217168205617294,
+      "test_r2": 0.7018460183131436,
+      "test_mae": 0.11070673276429636
+    },
+    "delta_rmsd": {
+      "test_rmse": 0.060675805680887956,
+      "test_r2": 0.26473692750148226,
+      "test_mae": 0.05264114335328415
+    },
+    "delta_solubility": {
+      "test_rmse": 0.06793349626903433,
+      "test_r2": 0.8990662121091818,
+      "test_mae": 0.05551041377695173
+    },
+    "metabolic_stability": {
+      "test_rmse": 3.9827880523981203,
+      "test_r2": 0.6899014290395682,
+      "test_mae": 3.3364009447899488
+    },
+    "absorption_change": {
+      "test_rmse": 1.939025531658732,
+      "test_r2": 0.3854764334073927,
+      "test_mae": 1.5781961403968114
+    },
+    "clearance_change": {
+      "test_rmse": 2.695594166927468,
+      "test_r2": 0.26276852410127616,
+      "test_mae": 2.2730100358007586
+    },
+    "sas_score": {
+      "test_rmse": 0.3082869006797938,
+      "test_r2": 0.315439773983361,
+      "test_mae": 0.26011064781129667
+    },
+    "structural_score": {
+      "test_rmse": 6.099160898076708,
+      "test_r2": 0.2135549061443751,
+      "test_mae": 5.098370312266333
+    },
+    "binding_score": {
+      "test_rmse": 6.222434904759712,
+      "test_r2": 0.17300589658048893,
+      "test_mae": 5.141380616391344
+    },
+    "overall_viability": {
+      "test_rmse": 6.161069302758704,
+      "test_r2": 0.2764862624270973,
+      "test_mae": 5.318091724325764
+    }
+  }
+}

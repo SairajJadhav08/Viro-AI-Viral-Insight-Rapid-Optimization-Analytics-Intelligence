@@ -1,0 +1,11 @@
+{
+  "virus": "Influenza",
+  "total_records": 11,
+  "unique_drugs": 11,
+  "unique_proteins": 3,
+  "proteins": [
+    "Neuraminidase",
+    "Hemagglutinin",
+    "M2 ion channel"
+  ]
+}

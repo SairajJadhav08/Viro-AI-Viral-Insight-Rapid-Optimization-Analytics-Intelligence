@@ -1,0 +1,10 @@
+{
+  "virus": "HSV-1",
+  "total_records": 3,
+  "unique_drugs": 3,
+  "unique_proteins": 1,
+  "proteins": [
+    "Thymidine kinase"
+  ]
+}
+

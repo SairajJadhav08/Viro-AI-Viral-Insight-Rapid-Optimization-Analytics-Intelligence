@@ -1,0 +1,4 @@
+patient_id,age,sex,severity,hospitalized,icu_required,outcome,days_to_recovery,complications,treatment_received
+RAB_001,42,M,Severe,Yes,Yes,Fatal,12,"Encephalitis, Respiratory failure",Supportive care (no PEP given)
+RAB_002,8,F,Mild (Pre-symptomatic),Yes,No,Recovered,21,None,PEP + Rabies immunoglobulin (within 24h of exposure)
+

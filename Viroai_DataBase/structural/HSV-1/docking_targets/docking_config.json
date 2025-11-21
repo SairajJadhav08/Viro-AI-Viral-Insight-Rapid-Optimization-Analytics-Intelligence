@@ -1,0 +1,21 @@
+{
+  "virus": "HSV-1",
+  "docking_ready": false,
+  "note": "Requires AutoDock or similar for preparation",
+  "targets": [
+    {
+      "pdb_id": "1KI2",
+      "protein": "Thymidine kinase",
+      "binding_site": "Nucleoside binding site",
+      "recommended_for": "Nucleoside analogs (Ganciclovir, Famciclovir, Penciclovir)"
+    }
+  ],
+  "preparation_needed": [
+    "Download PDB files from RCSB",
+    "Remove water molecules",
+    "Add hydrogens",
+    "Define binding pocket",
+    "Generate grid box"
+  ]
+}
+

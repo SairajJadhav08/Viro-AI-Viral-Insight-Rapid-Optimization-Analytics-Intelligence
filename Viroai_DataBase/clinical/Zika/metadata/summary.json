@@ -1,0 +1,10 @@
+{
+  "virus": "Zika",
+  "total_records": 2,
+  "unique_drugs": 2,
+  "unique_proteins": 1,
+  "proteins": [
+    "NS2B-NS3 protease"
+  ]
+}
+

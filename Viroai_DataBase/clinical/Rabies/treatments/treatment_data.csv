@@ -1,0 +1,5 @@
+treatment_id,drug_name,mechanism,efficacy_rate,administration,duration_days,side_effects,fda_approved
+RAB_T001,Rabies Immunoglobulin,Passive immunization,100% (pre-symptomatic),Local wound infiltration + IM,1,"Fever, Pain at injection site",Yes
+RAB_T002,Rabies Vaccine (HDCV),Active immunization,100% (pre-symptomatic),IM,28 (5 doses),"Headache, Nausea, Muscle aches",Yes
+RAB_T003,Milwaukee Protocol,Induced coma + antivirals,~10% (symptomatic),IV + IM,14-30,"Complications from induced coma",No (experimental)
+

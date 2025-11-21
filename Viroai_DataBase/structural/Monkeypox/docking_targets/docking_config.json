@@ -1,0 +1,42 @@
+{
+  "virus_name": "Monkeypox",
+  "docking_targets": [
+    {
+      "target_name": "VP37",
+      "pdb_id": "7XO0",
+      "binding_site_residues": ["L143", "M144", "W147", "L185", "V189"],
+      "binding_site_center": {
+        "x": 15.2,
+        "y": 22.8,
+        "z": 31.4
+      },
+      "box_size": {
+        "x": 20,
+        "y": 20,
+        "z": 20
+      },
+      "known_inhibitors": ["Tecovirimat", "ST-246"],
+      "binding_affinity_range": "-8.5 to -11.2 kcal/mol"
+    },
+    {
+      "target_name": "DNA_Polymerase_E9L",
+      "pdb_id": "4S0X",
+      "binding_site_residues": ["D301", "D302", "D475", "Y477"],
+      "binding_site_center": {
+        "x": 45.6,
+        "y": 33.1,
+        "z": 28.9
+      },
+      "box_size": {
+        "x": 25,
+        "y": 25,
+        "z": 25
+      },
+      "known_inhibitors": ["Brincidofovir", "Cidofovir"],
+      "binding_affinity_range": "-7.8 to -10.5 kcal/mol"
+    }
+  ],
+  "software_compatibility": ["AutoDock Vina", "AutoDock 4", "Glide"],
+  "preparation_notes": "Remove water molecules beyond 5Å from binding site. Add hydrogens at pH 7.4"
+}
+

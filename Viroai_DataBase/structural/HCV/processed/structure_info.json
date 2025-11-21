@@ -1,0 +1,25 @@
+{
+  "virus": "HCV",
+  "total_structures": 2,
+  "pdb_files": [
+    "3KEE.pdb",
+    "4WTG.pdb"
+  ],
+  "structures": {
+    "3KEE": {
+      "file": "3KEE.pdb",
+      "chains": 1,
+      "note": "NS3/4A protease - awaiting PDB download"
+    },
+    "4WTG": {
+      "file": "4WTG.pdb",
+      "chains": 1,
+      "note": "NS5B polymerase - awaiting PDB download"
+    }
+  },
+  "proteins": {
+    "3KEE": "NS3/4A protease",
+    "4WTG": "NS5B polymerase"
+  }
+}
+

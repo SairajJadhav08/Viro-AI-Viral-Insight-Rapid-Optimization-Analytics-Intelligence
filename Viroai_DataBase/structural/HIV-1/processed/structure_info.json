@@ -1,0 +1,32 @@
+{
+  "virus": "HIV-1",
+  "total_structures": 3,
+  "pdb_files": [
+    "1HXW.pdb",
+    "1RTD.pdb",
+    "3NF7.pdb"
+  ],
+  "structures": {
+    "1HXW": {
+      "file": "1HXW.pdb",
+      "chains": 2,
+      "note": "Protease structure - awaiting PDB download"
+    },
+    "1RTD": {
+      "file": "1RTD.pdb",
+      "chains": 1,
+      "note": "Reverse Transcriptase - awaiting PDB download"
+    },
+    "3NF7": {
+      "file": "3NF7.pdb",
+      "chains": 1,
+      "note": "Integrase - awaiting PDB download"
+    }
+  },
+  "proteins": {
+    "1HXW": "Protease",
+    "1RTD": "Reverse Transcriptase",
+    "3NF7": "Integrase"
+  }
+}
+

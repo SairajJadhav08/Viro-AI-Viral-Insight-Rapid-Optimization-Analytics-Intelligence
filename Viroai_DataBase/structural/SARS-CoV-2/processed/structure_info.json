@@ -1,0 +1,28 @@
+{
+  "virus": "SARS-CoV-2",
+  "total_structures": 3,
+  "pdb_files": [
+    "6VSB.pdb",
+    "6VXX.pdb",
+    "7BNN.pdb"
+  ],
+  "structures": {
+    "6VSB": {
+      "file": "6VSB.pdb",
+      "chains": 20
+    },
+    "6VXX": {
+      "file": "6VXX.pdb",
+      "chains": 18
+    },
+    "7BNN": {
+      "file": "7BNN.pdb",
+      "chains": 11
+    }
+  },
+  "proteins": {
+    "6VSB": "Spike RBD",
+    "6VXX": "Spike Protein",
+    "7BNN": "Main Protease"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "executed_migrations": [
+    "001_user_profile_enhancements.sql",
+    "002_project_metadata_extensions.sql",
+    "003_detailed_results_tables.sql",
+    "004_research_news_table.sql",
+    "005_base_tables_creation.sql",
+    "008_add_virus_type_to_projects.sql"
+  ],
+  "last_migration_date": "2025-11-21T00:19:16.523774"
+}

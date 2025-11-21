@@ -1,0 +1,13 @@
+{
+  "virus": "HSV-1",
+  "total_sequences": 100,
+  "avg_length": 152261,
+  "min_length": 150000,
+  "max_length": 155000,
+  "sequence_ids": [
+    "HSV1-17.1",
+    "HSV1-F.1",
+    "HSV1-KOS.1"
+  ]
+}
+

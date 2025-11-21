@@ -1,0 +1,42 @@
+{
+  "virus_name": "Monkeypox",
+  "virus_family": "Poxviridae",
+  "virus_genus": "Orthopoxvirus",
+  "genome_type": "dsDNA",
+  "genome_size_kb": 197,
+  "clinical_samples": 3,
+  "transmission": "Zoonotic, close contact with infected animals or humans",
+  "incubation_period_days": "5-21",
+  "symptoms": [
+    "Fever",
+    "Headache",
+    "Muscle aches",
+    "Lymphadenopathy",
+    "Rash with pustules"
+  ],
+  "severity": "Moderate (CFR 1-10% depending on clade)",
+  "outbreak_regions": [
+    "Central and West Africa (endemic)",
+    "Global (2022-2024 outbreak)"
+  ],
+  "diagnostic_methods": [
+    "PCR",
+    "Viral culture",
+    "Immunohistochemistry"
+  ],
+  "approved_treatments": [
+    "Tecovirimat (TPOXX)",
+    "Brincidofovir",
+    "Vaccinia immune globulin"
+  ],
+  "vaccines": [
+    "JYNNEOS (MVA-BN)",
+    "ACAM2000"
+  ],
+  "resistance_mechanisms": [
+    "E9L DNA polymerase mutations",
+    "A42R profilin mutations"
+  ],
+  "clinical_notes": "Two genetic clades: Central African (more severe) and West African. The 2022 outbreak was primarily the West African clade."
+}
+

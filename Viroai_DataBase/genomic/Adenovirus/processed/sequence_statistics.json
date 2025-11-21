@@ -1,0 +1,13 @@
+{
+  "virus": "Adenovirus",
+  "total_sequences": 60,
+  "avg_length": 35935,
+  "min_length": 34000,
+  "max_length": 38000,
+  "sequence_ids": [
+    "HAdV-C5.1",
+    "HAdV-D26.1",
+    "HAdV-B3.1"
+  ]
+}
+

@@ -1,0 +1,5 @@
+treatment_id,drug_name,mechanism,efficacy_rate,administration,duration_days,side_effects,fda_approved
+MPX_T001,Tecovirimat,Viral protein VP37 inhibitor,85%,Oral,14,"Headache, Nausea",Yes (2018)
+MPX_T002,Brincidofovir,DNA polymerase inhibitor,75%,Oral,14-21,"Diarrhea, Nausea, Vomiting",Yes (2021)
+MPX_T003,Vaccinia Immune Globulin,Passive immunization,70%,IV,Single dose,"Fever, Chills",Yes
+

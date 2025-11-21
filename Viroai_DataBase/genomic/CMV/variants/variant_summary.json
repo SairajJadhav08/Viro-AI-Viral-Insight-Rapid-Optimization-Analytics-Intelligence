@@ -1,0 +1,8 @@
+{
+  "virus": "CMV",
+  "total_variants": 0,
+  "note": "Variant data to be populated from GenBank",
+  "variant_types": ["AD169", "Merlin", "TB40E"],
+  "data_sources": ["GenBank", "NCBI Virus"]
+}
+

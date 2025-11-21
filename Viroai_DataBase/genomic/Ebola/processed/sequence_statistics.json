@@ -1,0 +1,19 @@
+{
+  "virus": "Ebola",
+  "total_sequences": 500,
+  "avg_length": 17646,
+  "min_length": 6,
+  "max_length": 20302,
+  "sequence_ids": [
+    "PU796681.1",
+    "PI212816.1",
+    "pdb|8JSN|G",
+    "pdb|8JSL|G",
+    "pdb|8JSM|G",
+    "OZ276552.1",
+    "PH487566.1",
+    "PH487565.1",
+    "PG341017.1",
+    "PG341016.1"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "virus": "HIV-1",
+  "docking_ready": false,
+  "note": "Requires AutoDock or similar for preparation",
+  "targets": [
+    {
+      "pdb_id": "1HXW",
+      "protein": "Protease",
+      "binding_site": "Active site",
+      "recommended_for": "Protease inhibitors (Ritonavir, Darunavir, etc.)"
+    },
+    {
+      "pdb_id": "1RTD",
+      "protein": "Reverse Transcriptase",
+      "binding_site": "Polymerase active site",
+      "recommended_for": "NRTIs and NNRTIs (Tenofovir, Efavirenz, etc.)"
+    },
+    {
+      "pdb_id": "3NF7",
+      "protein": "Integrase",
+      "binding_site": "Catalytic core",
+      "recommended_for": "Integrase inhibitors (Bictegravir, Raltegravir)"
+    }
+  ],
+  "preparation_needed": [
+    "Download PDB files from RCSB",
+    "Remove water molecules",
+    "Add hydrogens",
+    "Define binding pocket",
+    "Generate grid box"
+  ]
+}
+

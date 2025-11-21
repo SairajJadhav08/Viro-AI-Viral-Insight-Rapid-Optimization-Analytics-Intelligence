@@ -1,0 +1,8 @@
+{
+  "virus": "HBV",
+  "total_variants": 0,
+  "note": "Variant data to be populated from GenBank",
+  "variant_types": ["Genotype A", "Genotype B", "Genotype C", "Genotype D"],
+  "data_sources": ["GenBank", "HBVdb"]
+}
+

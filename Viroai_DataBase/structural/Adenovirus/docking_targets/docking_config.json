@@ -1,0 +1,21 @@
+{
+  "virus": "Adenovirus",
+  "docking_ready": false,
+  "note": "Requires AutoDock or similar for preparation",
+  "targets": [
+    {
+      "pdb_id": "1NLN",
+      "protein": "Protease",
+      "binding_site": "Catalytic site",
+      "recommended_for": "Protease inhibitors (Ganciclovir)"
+    }
+  ],
+  "preparation_needed": [
+    "Download PDB files from RCSB",
+    "Remove water molecules",
+    "Add hydrogens",
+    "Define binding pocket",
+    "Generate grid box"
+  ]
+}
+

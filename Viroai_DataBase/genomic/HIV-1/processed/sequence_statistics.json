@@ -1,0 +1,15 @@
+{
+  "virus": "HIV-1",
+  "total_sequences": 500,
+  "avg_length": 9181,
+  "min_length": 8900,
+  "max_length": 9500,
+  "sequence_ids": [
+    "HIV1-REF.1",
+    "HIV1-REF.2",
+    "HIV1-REF.3",
+    "HIV1-REF.4",
+    "HIV1-REF.5"
+  ]
+}
+

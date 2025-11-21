@@ -1,0 +1,10 @@
+{
+  "virus": "RSV",
+  "total_records": 1,
+  "unique_drugs": 1,
+  "unique_proteins": 1,
+  "proteins": [
+    "Polymerase"
+  ]
+}
+

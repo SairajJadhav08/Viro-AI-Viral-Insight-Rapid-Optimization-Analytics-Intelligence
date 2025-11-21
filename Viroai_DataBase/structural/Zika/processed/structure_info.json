@@ -1,0 +1,18 @@
+{
+  "virus": "Zika",
+  "total_structures": 1,
+  "pdb_files": [
+    "5U04.pdb"
+  ],
+  "structures": {
+    "5U04": {
+      "file": "5U04.pdb",
+      "chains": 2,
+      "note": "NS2B-NS3 protease complex - awaiting PDB download"
+    }
+  },
+  "proteins": {
+    "5U04": "NS2B-NS3 protease"
+  }
+}
+

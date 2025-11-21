@@ -1,0 +1,14 @@
+{
+  "virus": "HBV",
+  "total_sequences": 200,
+  "avg_length": 3215,
+  "min_length": 3100,
+  "max_length": 3300,
+  "sequence_ids": [
+    "HBV-A.1",
+    "HBV-B.1",
+    "HBV-C.1",
+    "HBV-D.1"
+  ]
+}
+

@@ -1,0 +1,60 @@
+{
+  "virus_name": "Rabies",
+  "total_variants": 16,
+  "variants": [
+    {
+      "variant_name": "Genotype 1 (Classical Rabies)",
+      "first_detected": "Global",
+      "year": "1885",
+      "key_mutations": [
+        "G protein variations",
+        "P protein IFN antagonist mutations"
+      ],
+      "transmissibility": "High via dog bites",
+      "severity": "Fatal (>99%)",
+      "geographic_distribution": "Worldwide"
+    },
+    {
+      "variant_name": "Genotype 2 (Lagos bat virus)",
+      "first_detected": "Nigeria",
+      "year": "1956",
+      "key_mutations": [
+        "G protein antigenic differences",
+        "Reduced pathogenicity in terrestrial mammals"
+      ],
+      "transmissibility": "Low",
+      "severity": "Lower than genotype 1",
+      "geographic_distribution": "Africa"
+    },
+    {
+      "variant_name": "Genotype 3 (Mokola virus)",
+      "first_detected": "Nigeria",
+      "year": "1968",
+      "key_mutations": [
+        "G protein divergence",
+        "Unknown reservoir"
+      ],
+      "transmissibility": "Rare",
+      "severity": "Fatal",
+      "geographic_distribution": "Africa"
+    },
+    {
+      "variant_name": "Genotype 4 (Duvenhage virus)",
+      "first_detected": "South Africa",
+      "year": "1970",
+      "key_mutations": [
+        "Bat-adapted glycoprotein"
+      ],
+      "transmissibility": "Low (bat-associated)",
+      "severity": "Fatal",
+      "geographic_distribution": "Africa"
+    }
+  ],
+  "escape_mutations": [
+    "G333E: Glycoprotein mutation affecting antibody neutralization",
+    "G242K: Vaccine escape variant",
+    "P226L: Enhanced neuroinvasiveness"
+  ],
+  "notes": "16 recognized genotypes within Lyssavirus genus. Only genotype 1 (classical rabies) responsible for majority of human deaths."
+}
+

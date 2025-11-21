@@ -1,0 +1,42 @@
+{
+  "virus_name": "Rabies",
+  "structural_proteins": [
+    {
+      "protein_name": "Glycoprotein (G)",
+      "pdb_id": "6LGX",
+      "function": "Receptor binding and membrane fusion",
+      "drug_target": "Neutralizing antibody target, vaccine antigen",
+      "molecular_weight_kda": 65,
+      "active_sites": ["Receptor binding domain (RBD)", "Fusion domain"]
+    },
+    {
+      "protein_name": "Nucleoprotein (N)",
+      "pdb_id": "2GTT",
+      "function": "RNA encapsidation and viral genome protection",
+      "drug_target": "Potential therapeutic target",
+      "molecular_weight_kda": 58,
+      "active_sites": ["RNA binding groove", "N-N interaction interface"]
+    },
+    {
+      "protein_name": "Phosphoprotein (P)",
+      "pdb_id": "2YXE",
+      "function": "Polymerase cofactor and IFN antagonist",
+      "drug_target": "Antiviral target (interferon evasion)",
+      "molecular_weight_kda": 35,
+      "active_sites": ["STAT1/2 binding domain", "L protein interaction domain"]
+    },
+    {
+      "protein_name": "RNA polymerase (L)",
+      "pdb_id": "7U1P",
+      "function": "Viral RNA synthesis and capping",
+      "drug_target": "Antiviral drug target",
+      "molecular_weight_kda": 244,
+      "active_sites": ["Polymerase active site", "Methyltransferase domain", "Capping domain"]
+    }
+  ],
+  "available_structures": 4,
+  "resolution_range": "1.8-3.5 Angstroms",
+  "crystallization_methods": ["X-ray crystallography", "Cryo-EM"],
+  "notes": "Glycoprotein is the primary target for vaccines and therapeutic antibodies. L polymerase is a potential target for small molecule antivirals."
+}
+

@@ -1,0 +1,12 @@
+virus,protein,pdb_id,drug_name,drug_id,ic50_nm,ki_nm,assay_type,source
+Influenza,Neuraminidase,4GMS,Oseltamivir,CID65028,0.5,0.3,IC50,Literature
+Influenza,Neuraminidase,4GMS,Zanamivir,CID60855,0.7,0.4,IC50,Literature
+Influenza,Neuraminidase,4GMS,Peramivir,CID150610,1.2,,IC50,Literature
+Influenza,Neuraminidase,4GMS,Laninamivir,CID9938448,2.5,,IC50,Literature
+Influenza,Hemagglutinin,1RVX,Arbidol,CID131411,8500.0,,IC50,Literature
+Influenza,M2 ion channel,3LBW,Amantadine,CID2130,50.0,,IC50,Literature
+Influenza,M2 ion channel,3LBW,Rimantadine,CID5071,75.0,,IC50,Literature
+Influenza,Neuraminidase,4GMS,Hydroxychloroquine,CID3652,95000.0,,IC50,Literature
+Influenza,Neuraminidase,4GMS,Baloxavir,CID118025530,1.4,,IC50,Literature
+Influenza,Hemagglutinin,1RVX,Favipiravir,CID492405,6200.0,,IC50,Literature
+Influenza,Hemagglutinin,1RVX,Ribavirin,CID37542,8500.0,,IC50,Literature

@@ -1,0 +1,36 @@
+{
+  "virus_name": "Monkeypox",
+  "total_variants": 2,
+  "variants": [
+    {
+      "variant_name": "Clade I (Central African)",
+      "first_detected": "Democratic Republic of Congo",
+      "year": "1970",
+      "key_mutations": [
+        "Higher virulence genes",
+        "Enhanced immune evasion proteins"
+      ],
+      "transmissibility": "Lower than Clade II",
+      "severity": "Higher (CFR up to 10%)",
+      "geographic_distribution": "Central Africa"
+    },
+    {
+      "variant_name": "Clade II (West African)",
+      "first_detected": "West Africa",
+      "year": "1970s",
+      "key_mutations": [
+        "Attenuated virulence",
+        "Modified host range genes"
+      ],
+      "transmissibility": "Higher (2022 outbreak)",
+      "severity": "Lower (CFR 1-3%)",
+      "geographic_distribution": "Global (2022-2024)"
+    }
+  ],
+  "escape_mutations": [
+    "A42R_Y105H: Affects profilin function",
+    "E9L_M296V: DNA polymerase resistance to antivirals"
+  ],
+  "notes": "2022 outbreak strain shows enhanced human-to-human transmission with multiple APOBEC3-mediated mutations"
+}
+

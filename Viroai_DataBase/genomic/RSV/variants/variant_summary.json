@@ -1,0 +1,8 @@
+{
+  "virus": "RSV",
+  "total_variants": 0,
+  "note": "Variant data to be populated from GenBank",
+  "variant_types": ["RSV-A", "RSV-B"],
+  "data_sources": ["GenBank", "NCBI Virus"]
+}
+

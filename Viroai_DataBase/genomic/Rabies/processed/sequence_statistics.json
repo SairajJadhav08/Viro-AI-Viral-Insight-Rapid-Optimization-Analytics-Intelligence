@@ -1,0 +1,20 @@
+{
+  "virus_name": "Rabies",
+  "genome_type": "Negative-sense ssRNA",
+  "genome_length": 11932,
+  "gc_content": 44.8,
+  "protein_coding_genes": 5,
+  "reference_strain": "Pasteur Virus (PV)",
+  "ncbi_accession": "NC_001542",
+  "genbank_ids": [
+    "NC_001542",
+    "M13215",
+    "KY926429"
+  ],
+  "sequencing_date": "1985-2023",
+  "sequencing_method": "Sanger sequencing, Illumina NextSeq",
+  "notable_features": "Five genes in order: N-P-M-G-L encoding nucleoprotein, phosphoprotein, matrix, glycoprotein, and RNA polymerase",
+  "coding_sequences": 5,
+  "non_coding_regions": "Leader sequence (58 nt), trailer sequence (70 nt), intergenic regions"
+}
+

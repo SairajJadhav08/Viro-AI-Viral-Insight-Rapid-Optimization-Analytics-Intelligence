@@ -1,0 +1,12 @@
+{
+  "virus": "SARS-CoV-2",
+  "total_records": 19,
+  "unique_drugs": 19,
+  "unique_proteins": 4,
+  "proteins": [
+    "3CL protease",
+    "RNA polymerase",
+    "Spike protein",
+    "TMPRSS2"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "virus": "Zika",
+  "total_sequences": 120,
+  "avg_length": 10794,
+  "min_length": 10600,
+  "max_length": 10900,
+  "sequence_ids": [
+    "ZIKV-MR766.1",
+    "ZIKV-PRVABC59.1",
+    "ZIKV-BeH.1"
+  ]
+}
+

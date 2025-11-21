@@ -1,0 +1,12 @@
+{
+  "virus": "HIV-1",
+  "total_records": 17,
+  "unique_drugs": 15,
+  "unique_proteins": 3,
+  "proteins": [
+    "Protease",
+    "Reverse Transcriptase",
+    "Integrase"
+  ]
+}
+

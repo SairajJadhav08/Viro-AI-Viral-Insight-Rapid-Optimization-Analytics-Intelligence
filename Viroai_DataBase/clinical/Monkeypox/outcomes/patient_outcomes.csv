@@ -1,0 +1,5 @@
+patient_id,age,sex,severity,hospitalized,icu_required,outcome,days_to_recovery,complications,treatment_received
+MPX_001,28,M,Moderate,Yes,No,Recovered,21,Lymphadenopathy,Tecovirimat
+MPX_002,34,M,Mild,No,No,Recovered,14,None,Supportive care
+MPX_003,45,F,Severe,Yes,Yes,Recovered,35,"Secondary bacterial infection, Pneumonia",Tecovirimat + Antibiotics
+

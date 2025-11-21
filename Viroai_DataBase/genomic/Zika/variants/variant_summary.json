@@ -1,0 +1,8 @@
+{
+  "virus": "Zika",
+  "total_variants": 0,
+  "note": "Variant data to be populated from GenBank/GISAID",
+  "variant_types": ["African lineage", "Asian lineage", "American lineage"],
+  "data_sources": ["GenBank", "GISAID"]
+}
+

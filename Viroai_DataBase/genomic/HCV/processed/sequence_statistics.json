@@ -1,0 +1,14 @@
+{
+  "virus": "HCV",
+  "total_sequences": 250,
+  "avg_length": 9646,
+  "min_length": 9300,
+  "max_length": 9800,
+  "sequence_ids": [
+    "HCV-1a.1",
+    "HCV-1b.1",
+    "HCV-2a.1",
+    "HCV-3a.1"
+  ]
+}
+

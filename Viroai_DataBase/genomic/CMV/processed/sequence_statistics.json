@@ -1,0 +1,13 @@
+{
+  "virus": "CMV",
+  "total_sequences": 150,
+  "avg_length": 235645,
+  "min_length": 230000,
+  "max_length": 240000,
+  "sequence_ids": [
+    "CMV-AD169.1",
+    "CMV-Merlin.1",
+    "CMV-TB40E.1"
+  ]
+}
+

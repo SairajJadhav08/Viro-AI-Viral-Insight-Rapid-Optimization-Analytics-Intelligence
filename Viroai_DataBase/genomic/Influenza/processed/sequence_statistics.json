@@ -1,0 +1,19 @@
+{
+  "virus": "Influenza",
+  "total_sequences": 800,
+  "avg_length": 1691,
+  "min_length": 200,
+  "max_length": 2316,
+  "sequence_ids": [
+    "PX447734.1",
+    "PX447733.1",
+    "PX447729.1",
+    "PX447728.1",
+    "PX447727.1",
+    "PX447726.1",
+    "PX447725.1",
+    "PX447724.1",
+    "PX447721.1",
+    "PX447723.1"
+  ]
+}

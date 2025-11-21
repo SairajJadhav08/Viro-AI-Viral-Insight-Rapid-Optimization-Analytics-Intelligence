@@ -1,0 +1,18 @@
+{
+  "virus": "Ebola",
+  "note": "Variant calling requires alignment to reference genome",
+  "known_species": [
+    "Zaire ebolavirus",
+    "Sudan ebolavirus",
+    "Bundibugyo ebolavirus"
+  ],
+  "key_genes": [
+    "GP",
+    "VP35",
+    "VP40",
+    "NP",
+    "L"
+  ],
+  "reference_genome": "NC_002549.1",
+  "analysis_pending": true
+}
