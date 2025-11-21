@@ -593,134 +593,71 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-<!-- Animated Loading Spinner -->
-<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="50" cy="50" r="40" fill="none" stroke="#1E88E5" stroke-width="4" stroke-dasharray="251.2" stroke-dashoffset="251.2">
-    <animate attributeName="stroke-dashoffset" values="251.2;0;251.2" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="50" cy="50" r="30" fill="none" stroke="#0B4F8C" stroke-width="3" stroke-dasharray="188.4" stroke-dashoffset="188.4">
-    <animate attributeName="stroke-dashoffset" values="188.4;0;188.4" dur="1.5s" repeatCount="indefinite"/>
+### ⚡ Simple & Reliable Animations
+
+<!-- Rotating Circle -->
+<svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="40" cy="40" r="30" fill="none" stroke="#1E88E5" stroke-width="4" stroke-dasharray="188" stroke-dashoffset="188">
+    <animate attributeName="stroke-dashoffset" values="188;0;188" dur="2s" repeatCount="indefinite"/>
   </circle>
 </svg>
 
-<!-- Animated Pulsing Circles -->
-<svg width="120" height="120" xmlns="http://www.w3.org/2000/svg" style="margin: 20px;">
-  <circle cx="60" cy="60" r="25" fill="#1E88E5" opacity="0.3">
-    <animate attributeName="r" values="25;40;25" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.3;0.1;0.3" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="60" cy="60" r="20" fill="#1E88E5" opacity="0.5">
-    <animate attributeName="r" values="20;35;20" dur="2s" begin="0.3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;0.2;0.5" dur="2s" begin="0.3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="60" cy="60" r="15" fill="#1E88E5">
-    <animate attributeName="r" values="15;25;15" dur="2s" begin="0.6s" repeatCount="indefinite"/>
+<!-- Pulsing Circle -->
+<svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="40" cy="40" r="20" fill="#1E88E5" opacity="0.7">
+    <animate attributeName="r" values="20;30;20" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2s" repeatCount="indefinite"/>
   </circle>
 </svg>
 
-<!-- Animated Rotating DNA Strand -->
-<svg width="150" height="150" xmlns="http://www.w3.org/2000/svg" style="margin: 20px;">
-  <defs>
-    <linearGradient id="dnaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1E88E5;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0B4F8C;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <!-- Left strand -->
-  <circle cx="40" cy="30" r="8" fill="url(#dnaGrad)">
-    <animate attributeName="cy" values="30;120;30" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="40" cy="60" r="8" fill="url(#dnaGrad)">
-    <animate attributeName="cy" values="60;90;60" dur="3s" begin="0.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="40" cy="90" r="8" fill="url(#dnaGrad)">
-    <animate attributeName="cy" values="90;60;90" dur="3s" begin="1s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="40" cy="120" r="8" fill="url(#dnaGrad)">
-    <animate attributeName="cy" values="120;30;120" dur="3s" begin="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <!-- Right strand -->
-  <circle cx="110" cy="30" r="8" fill="url(#dnaGrad)">
-    <animate attributeName="cy" values="30;120;30" dur="3s" begin="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="110" cy="60" r="8" fill="url(#dnaGrad)">
-    <animate attributeName="cy" values="60;90;60" dur="3s" begin="1s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="110" cy="90" r="8" fill="url(#dnaGrad)">
-    <animate attributeName="cy" values="90;60;90" dur="3s" begin="0.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="110" cy="120" r="8" fill="url(#dnaGrad)">
-    <animate attributeName="cy" values="120;30;120" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <!-- Connecting lines -->
-  <line x1="40" y1="30" x2="110" y2="120" stroke="url(#dnaGrad)" stroke-width="2" opacity="0.4">
-    <animate attributeName="y1" values="30;120;30" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="y2" values="120;30;120" dur="3s" repeatCount="indefinite"/>
-  </line>
-  <line x1="40" y1="60" x2="110" y2="90" stroke="url(#dnaGrad)" stroke-width="2" opacity="0.4">
-    <animate attributeName="y1" values="60;90;60" dur="3s" begin="0.5s" repeatCount="indefinite"/>
-    <animate attributeName="y2" values="90;60;90" dur="3s" begin="0.5s" repeatCount="indefinite"/>
-  </line>
-</svg>
-
-<!-- Animated Wave Pattern -->
-<svg width="200" height="80" xmlns="http://www.w3.org/2000/svg" style="margin: 20px;">
-  <path d="M0,40 Q25,20 50,40 T100,40 T150,40 T200,40" stroke="#1E88E5" stroke-width="3" fill="none">
-    <animate attributeName="d" 
-             values="M0,40 Q25,20 50,40 T100,40 T150,40 T200,40;M0,40 Q25,60 50,40 T100,40 T150,40 T200,40;M0,40 Q25,20 50,40 T100,40 T150,40 T200,40" 
-             dur="2s" 
-             repeatCount="indefinite"/>
-  </path>
-  <path d="M0,50 Q25,30 50,50 T100,50 T150,50 T200,50" stroke="#0B4F8C" stroke-width="2" fill="none" opacity="0.6">
-    <animate attributeName="d" 
-             values="M0,50 Q25,70 50,50 T100,50 T150,50 T200,50;M0,50 Q25,30 50,50 T100,50 T150,50 T200,50;M0,50 Q25,70 50,50 T100,50 T150,50 T200,50" 
-             dur="2s" 
-             begin="0.5s"
-             repeatCount="indefinite"/>
-  </path>
-</svg>
-
-<!-- Animated Particle System -->
-<svg width="180" height="180" xmlns="http://www.w3.org/2000/svg" style="margin: 20px;">
-  <circle cx="90" cy="90" r="3" fill="#1E88E5">
-    <animateMotion path="M90,90 Q90,30 30,30 Q30,90 90,90" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0.3;1" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="90" cy="90" r="3" fill="#0B4F8C">
-    <animateMotion path="M90,90 Q90,150 150,150 Q150,90 90,90" dur="4s" begin="1s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" begin="1s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="90" cy="90" r="3" fill="#1E88E5">
-    <animateMotion path="M90,90 Q30,90 30,30 Q90,30 90,90" dur="4s" begin="2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" begin="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="90" cy="90" r="3" fill="#0B4F8C">
-    <animateMotion path="M90,90 Q150,90 150,150 Q90,150 90,90" dur="4s" begin="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0.5;1" dur="4s" begin="3s" repeatCount="indefinite"/>
-  </circle>
-</svg>
-
-<!-- Animated Progress Bars -->
-<svg width="250" height="100" xmlns="http://www.w3.org/2000/svg" style="margin: 20px;">
-  <rect x="10" y="10" width="230" height="15" fill="#E0E0E0" rx="5"/>
-  <rect x="10" y="10" width="0" height="15" fill="#1E88E5" rx="5">
-    <animate attributeName="width" values="0;230;0" dur="3s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="10" y="35" width="230" height="15" fill="#E0E0E0" rx="5"/>
-  <rect x="10" y="35" width="0" height="15" fill="#0B4F8C" rx="5">
-    <animate attributeName="width" values="0;180;0" dur="3s" begin="0.5s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="10" y="60" width="230" height="15" fill="#E0E0E0" rx="5"/>
-  <rect x="10" y="60" width="0" height="15" fill="#1E88E5" rx="5">
-    <animate attributeName="width" values="0;150;0" dur="3s" begin="1s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="10" y="85" width="230" height="15" fill="#E0E0E0" rx="5"/>
-  <rect x="10" y="85" width="0" height="15" fill="#0B4F8C" rx="5">
-    <animate attributeName="width" values="0;200;0" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+<!-- Rotating Square -->
+<svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+  <rect x="20" y="20" width="40" height="40" fill="#1E88E5" opacity="0.7">
+    <animateTransform attributeName="transform" type="rotate" values="0 40 40;360 40 40" dur="3s" repeatCount="indefinite"/>
   </rect>
 </svg>
 
-**✨ All animations are rendered using SVG - fully supported by GitHub! ✨**
+### 📊 Animated Stats
+
+<table>
+<tr>
+<td align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=SairajJadhav08&show_icons=true&theme=blueberry&hide_border=true" alt="GitHub Stats" />
+</td>
+<td align="center">
+  <img src="https://github-readme-streak-stats.demolab.com/?user=SairajJadhav08&theme=blueberry&hide_border=true" alt="GitHub Streak" />
+</td>
+</tr>
+</table>
+
+### 🎯 Tech Stack Activity
+
+```
+🧬 Python          ████████████████████ 95%
+⚛️  React           ████████████████████ 90%
+🔷 TypeScript      ██████████████████░░ 85%
+🚀 FastAPI         ████████████████████ 95%
+🤖 Machine Learning ████████████████░░░░ 80%
+```
+
+### 🌟 Project Highlights
+
+<table>
+<tr>
+<td align="center" width="33%">
+  <b>🔬 ML Models</b><br/>
+  <sub>4 Core Modules</sub>
+</td>
+<td align="center" width="33%">
+  <b>💊 Drug Analysis</b><br/>
+  <sub>1000+ Compounds</sub>
+</td>
+<td align="center" width="33%">
+  <b>🧪 Mutations</b><br/>
+  <sub>AI-Powered Prediction</sub>
+</td>
+</tr>
+</table>
 
 </div>
 
