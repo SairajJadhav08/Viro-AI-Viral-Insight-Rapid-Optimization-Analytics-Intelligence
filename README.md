@@ -20,9 +20,9 @@
 
 <!-- Animated Status Badges -->
 <div>
-  <img src="https://img.shields.io/github/stars/yourusername/viro-ai?style=social&logo=github" alt="GitHub stars" />
-  <img src="https://img.shields.io/github/forks/yourusername/viro-ai?style=social&logo=github" alt="GitHub forks" />
-  <img src="https://img.shields.io/github/watchers/yourusername/viro-ai?style=social&logo=github" alt="GitHub watchers" />
+  <img src="https://img.shields.io/github/stars/SairajJadhav08/Viro-AI-Viral-Insight-Rapid-Optimization-Analytics-Intelligence?style=social&logo=github" alt="GitHub stars" />
+  <img src="https://img.shields.io/github/forks/SairajJadhav08/Viro-AI-Viral-Insight-Rapid-Optimization-Analytics-Intelligence?style=social&logo=github" alt="GitHub forks" />
+  <img src="https://img.shields.io/github/watchers/SairajJadhav08/Viro-AI-Viral-Insight-Rapid-Optimization-Analytics-Intelligence?style=social&logo=github" alt="GitHub watchers" />
 </div>
 
 <!-- Animated SVG DNA Helix -->
@@ -152,7 +152,7 @@
 
 - **🔮 Proactive Mutation Prediction** - Forecast viral mutations before they emerge with ML models
 - **💉 Automated Drug Screening** - Analyze 1000+ compounds against viral targets with >70% accuracy
-- **🎭 3D Molecular Visualization** - Interactive protein-drug interaction simulations
+- **🎨 3D Protein Visualization** - Interactive protein structure and drug binding visualizations
 - **📈 Deadliness Scoring** - Quantify viral threat levels with AI-driven metrics
 - **🔬 Chemical Modification Suggestions** - AI-optimized molecular structure improvements
 - **📚 Research Article Integration** - Access latest virology research and publications
@@ -236,8 +236,8 @@
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/viro-ai.git
-cd viro-ai
+git clone https://github.com/SairajJadhav08/Viro-AI-Viral-Insight-Rapid-Optimization-Analytics-Intelligence.git
+cd Viro-AI-Viral-Insight-Rapid-Optimization-Analytics-Intelligence
 ```
 
 2. **Backend Setup**
@@ -558,8 +558,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ by the VIRO-AI Team**
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername/viro-ai)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@viro-ai.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SairajJadhav08/Viro-AI-Viral-Insight-Rapid-Optimization-Analytics-Intelligence)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sairajjadhav433@gmail.com)
 
 ---
 
@@ -575,7 +575,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Interactive Dashboard
 - 📊 Real-time project analytics
-- 🧬 3D molecular visualizations
+- 🧬 3D protein structure visualizations
 - 📈 Mutation probability charts
 - 💊 Drug candidate rankings
 
