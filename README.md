@@ -587,78 +587,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 </div>
 
----
+**Our platform provides a seamless experience for researchers and developers working with viral data. The interactive dashboard offers real-time insights into your projects, while the intuitive interface ensures that complex biological data is accessible and actionable. Whether you're analyzing mutations, screening drug candidates, or visualizing protein structures, VIRO-AI makes it easy to explore and understand your data.**
 
-## 🎬 Animated Showcase
-
-<div align="center">
-
-### ⚡ Simple & Reliable Animations
-
-<!-- Rotating Circle -->
-<svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="40" cy="40" r="30" fill="none" stroke="#1E88E5" stroke-width="4" stroke-dasharray="188" stroke-dashoffset="188">
-    <animate attributeName="stroke-dashoffset" values="188;0;188" dur="2s" repeatCount="indefinite"/>
-  </circle>
-</svg>
-
-<!-- Pulsing Circle -->
-<svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="40" cy="40" r="20" fill="#1E88E5" opacity="0.7">
-    <animate attributeName="r" values="20;30;20" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="2s" repeatCount="indefinite"/>
-  </circle>
-</svg>
-
-<!-- Rotating Square -->
-<svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
-  <rect x="20" y="20" width="40" height="40" fill="#1E88E5" opacity="0.7">
-    <animateTransform attributeName="transform" type="rotate" values="0 40 40;360 40 40" dur="3s" repeatCount="indefinite"/>
-  </rect>
-</svg>
-
-### 📊 Animated Stats
-
-<table>
-<tr>
-<td align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SairajJadhav08&show_icons=true&theme=blueberry&hide_border=true" alt="GitHub Stats" />
-</td>
-<td align="center">
-  <img src="https://github-readme-streak-stats.demolab.com/?user=SairajJadhav08&theme=blueberry&hide_border=true" alt="GitHub Streak" />
-</td>
-</tr>
-</table>
-
-### 🎯 Tech Stack Activity
-
-```
-🧬 Python          ████████████████████ 95%
-⚛️  React           ████████████████████ 90%
-🔷 TypeScript      ██████████████████░░ 85%
-🚀 FastAPI         ████████████████████ 95%
-🤖 Machine Learning ████████████████░░░░ 80%
-```
-
-### 🌟 Project Highlights
-
-<table>
-<tr>
-<td align="center" width="33%">
-  <b>🔬 ML Models</b><br/>
-  <sub>4 Core Modules</sub>
-</td>
-<td align="center" width="33%">
-  <b>💊 Drug Analysis</b><br/>
-  <sub>1000+ Compounds</sub>
-</td>
-<td align="center" width="33%">
-  <b>🧪 Mutations</b><br/>
-  <sub>AI-Powered Prediction</sub>
-</td>
-</tr>
-</table>
-
-</div>
+**The responsive design ensures optimal performance across all devices, from desktop workstations to mobile tablets, allowing you to access your research anytime, anywhere. Combined with fast API responses and secure authentication, you can focus on what matters most - advancing viral research and drug discovery.**
 
 ---
+
