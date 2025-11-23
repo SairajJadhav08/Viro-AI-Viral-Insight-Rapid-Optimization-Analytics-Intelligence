@@ -29,31 +29,7 @@
 
 <!-- Animated SVG DNA Helix -->
 <div align="center">
-  <svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:#1E88E5;stop-opacity:1" />
-        <stop offset="100%" style="stop-color:#0B4F8C;stop-opacity:1" />
-      </linearGradient>
-    </defs>
-    <circle cx="50" cy="50" r="8" fill="url(#grad1)">
-      <animate attributeName="cy" values="50;30;50" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="100" cy="50" r="8" fill="url(#grad1)">
-      <animate attributeName="cy" values="50;70;50" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="150" cy="50" r="8" fill="url(#grad1)">
-      <animate attributeName="cy" values="50;30;50" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <line x1="50" y1="50" x2="100" y2="50" stroke="url(#grad1)" stroke-width="2" opacity="0.5">
-      <animate attributeName="y1" values="50;30;50" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="y2" values="50;70;50" dur="2s" repeatCount="indefinite"/>
-    </line>
-    <line x1="100" y1="50" x2="150" y2="50" stroke="url(#grad1)" stroke-width="2" opacity="0.5">
-      <animate attributeName="y1" values="50;70;50" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="y2" values="50;30;50" dur="2s" repeatCount="indefinite"/>
-    </line>
-  </svg>
+  <img src="assets/dna_helix.svg" width="200" height="100" alt="DNA Animation">
 </div>
 
 ---
@@ -242,62 +218,28 @@ graph LR
   <div>
     <h3>🧪 Mutation Prediction</h3>
     <p>AI-powered viral mutation forecasting</p>
-    <svg width="60" height="60" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="30" cy="30" r="20" fill="#1E88E5" opacity="0.3">
-        <animate attributeName="r" values="20;25;20" dur="2s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="30" cy="30" r="10" fill="#1E88E5">
-        <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
-      </circle>
-    </svg>
+    <img src="assets/feature_mutation.svg" width="60" height="60" alt="Mutation Prediction">
   </div>
 </td>
 <td align="center" width="25%">
   <div>
     <h3>💊 Drug Discovery</h3>
     <p>Automated antidote screening</p>
-    <svg width="60" height="60" xmlns="http://www.w3.org/2000/svg">
-      <rect x="15" y="15" width="30" height="30" fill="#1E88E5" opacity="0.3">
-        <animateTransform attributeName="transform" type="rotate" values="0 30 30;360 30 30" dur="3s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="20" y="20" width="20" height="20" fill="#1E88E5">
-        <animateTransform attributeName="transform" type="rotate" values="360 30 30;0 30 30" dur="3s" repeatCount="indefinite"/>
-      </rect>
-    </svg>
+    <img src="assets/feature_drug.svg" width="60" height="60" alt="Drug Discovery">
   </div>
 </td>
 <td align="center" width="25%">
   <div>
     <h3>🎨 3D Visualization</h3>
     <p>Real-time molecular interactions</p>
-    <svg width="60" height="60" xmlns="http://www.w3.org/2000/svg">
-      <polygon points="30,10 50,50 10,50" fill="#1E88E5" opacity="0.3">
-        <animateTransform attributeName="transform" type="scale" values="1;1.2;1" dur="2s" repeatCount="indefinite"/>
-      </polygon>
-      <polygon points="30,20 45,45 15,45" fill="#1E88E5">
-        <animateTransform attributeName="transform" type="scale" values="1.2;1;1.2" dur="2s" repeatCount="indefinite"/>
-      </polygon>
-    </svg>
+    <img src="assets/feature_3d.svg" width="60" height="60" alt="3D Visualization">
   </div>
 </td>
 <td align="center" width="25%">
   <div>
     <h3>📊 Analytics Dashboard</h3>
     <p>Comprehensive project insights</p>
-    <svg width="60" height="60" xmlns="http://www.w3.org/2000/svg">
-      <rect x="10" y="40" width="8" height="20" fill="#1E88E5">
-        <animate attributeName="height" values="20;30;20" dur="1.5s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="22" y="30" width="8" height="30" fill="#1E88E5">
-        <animate attributeName="height" values="30;40;30" dur="1.5s" begin="0.2s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="34" y="20" width="8" height="40" fill="#1E88E5">
-        <animate attributeName="height" values="40;50;40" dur="1.5s" begin="0.4s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="46" y="25" width="8" height="35" fill="#1E88E5">
-        <animate attributeName="height" values="35;45;35" dur="1.5s" begin="0.6s" repeatCount="indefinite"/>
-      </rect>
-    </svg>
+    <img src="assets/feature_analytics.svg" width="60" height="60" alt="Analytics Dashboard">
   </div>
 </td>
 </tr>
