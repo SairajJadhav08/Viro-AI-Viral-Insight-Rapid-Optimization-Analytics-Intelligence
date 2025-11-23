@@ -60,9 +60,28 @@
 
 ### 🎯 **Project Vision**
 
-VIRO-AI revolutionizes drug discovery by shifting from **reactive to proactive** viral threat management. Using cutting-edge AI/ML algorithms, we predict viral mutations before they emerge and accelerate antidote development from years to weeks.
+VIRO-AI revolutionizes drug discovery by shifting from **reactive to proactive** viral threat management. Traditional methods wait for an outbreak to begin research; VIRO-AI predicts threats before they emerge. Using cutting-edge AI/ML algorithms, we forecast viral mutations, simulate their impact, and accelerate antidote development from years to weeks.
 
 **📊 Dataset Size:** 30GB+ | **🎯 Prediction Accuracy:** >70% | **⚡ Processing Speed:** <2s per prediction
+
+---
+
+## ❓ The Problem
+
+In the fight against global pandemics, humanity faces three critical challenges:
+
+1.  **Reactive Response:** We currently wait for a virus to mutate and spread before developing a cure, costing millions of lives.
+2.  **Slow Drug Discovery:** Developing a new drug takes **10-15 years** and costs **$2.6 billion** on average.
+3.  **Rapid Viral Evolution:** Viruses like SARS-CoV-2 mutate faster than our ability to test and validate new treatments manually.
+
+## 💡 The Solution
+
+**VIRO-AI** bridges this gap with an intelligent, proactive defense system:
+
+-   **🔮 Proactive Mutation Prediction:** Our AI models analyze genomic sequences to forecast future mutations *before* they occur in nature.
+-   **🚀 Accelerated Drug Discovery:** We screen thousands of compounds in seconds, identifying effective antidotes in **weeks, not years**.
+-   **🧠 AI-Driven Optimization:** The system suggests precise molecular modifications to existing drugs to enhance their efficacy against specific viral variants.
+-   **⚗️ Virtual Clinical Trials:** High-fidelity 3D simulations validate drug-virus interactions, reducing the need for expensive and slow physical lab testing.
 
 ---
 
@@ -70,7 +89,11 @@ VIRO-AI revolutionizes drug discovery by shifting from **reactive to proactive**
 
 ## 📋 Table of Contents
 
+- [❓ The Problem](#-the-problem)
+- [💡 The Solution](#-the-solution)
 - [🔄 System Workflow](#-system-workflow)
+- [🗺️ User Journey](#-user-journey)
+- [📅 Project Roadmap](#-project-roadmap)
 - [✨ Features](#-features)
 - [🎯 Key Capabilities](#-key-capabilities)
 - [� Performance Metrics](#-performance-metrics)
@@ -181,6 +204,27 @@ sequenceDiagram
     B->>DB: Store Results
     B-->>F: Return Top Candidates
     F-->>U: Display Drug Rankings
+```
+
+</div>
+
+### **🗺️ User Journey**
+
+```mermaid
+graph LR
+    A[Landing Page] -->|Sign Up / Login| B[Dashboard]
+    B -->|Explore Projects| C[Project Hub]
+    B -->|Create New| D[Upload Data]
+    D -->|PDB / CSV / FASTA| E[Processing Engine]
+    E -->|Analyze| F[Results Dashboard]
+    F -->|Visualize| G[3D Interaction 🎨]
+    F -->|Deep Dive| H[Mutation & Drug Panels 📊]
+    F -->|Save & Export| I[Project History 💾]
+
+    style A fill:#e3f2fd,stroke:#1565c0
+    style B fill:#e3f2fd,stroke:#1565c0
+    style F fill:#e8f5e9,stroke:#2e7d32
+    style G fill:#fff3e0,stroke:#ef6c00
 ```
 
 </div>
@@ -330,6 +374,30 @@ sequenceDiagram
 
 </div>
 
+### **🧠 Deep Dive: Technical Architecture**
+
+Viro-AI is built on a robust, data-centric architecture designed for scale and precision.
+
+#### **1. The Knowledge Base (30GB+)**
+Our system is powered by a massive, curated dataset integrating:
+-   **Genomic Data:** Raw sequences and variants from **NCBI GenBank** and **GISAID**.
+-   **Structural Data:** Over 500+ 3D viral protein structures from **RCSB PDB**.
+-   **Clinical Data:** Real-world treatment outcomes and epidemiology from **WHO** and **PubMed**.
+
+#### **2. Predictive & Analytical Engine**
+The core intelligence of Viro-AI:
+-   **Input:** Receives viral genomic sequences (FASTA) and protein structures (PDB).
+-   **Process:**
+    -   *Mutation Predictor* uses Deep Learning (TensorFlow/Keras) to forecast sequence changes.
+    -   *Drug Analyzer* screens 1000+ compounds using molecular docking algorithms (AutoDock Vina).
+-   **Output:** A "Deadliness Score" (1-100) and a ranked list of potential antidotes.
+
+#### **3. Simulation & Visualization Module**
+-   **Real-Time Rendering:** Uses **Three.js** and **React** to render complex molecular interactions in the browser.
+-   **Interactive Docking:** Researchers can visually inspect how a drug molecule binds to a viral protein, rotating and zooming to verify active sites.
+
+---
+
 ---
 
 ## �🛠️ Tech Stack
@@ -405,13 +473,13 @@ sequenceDiagram
 
 ### Installation
 
-1. **Clone the repository**
+1. 📥 **Clone the repository**
 ```bash
 git clone https://github.com/SairajJadhav08/Viro-AI-Viral-Insight-Rapid-Optimization-Analytics-Intelligence.git
 cd Viro-AI-Viral-Insight-Rapid-Optimization-Analytics-Intelligence
 ```
 
-2. **Backend Setup**
+2. ⚙️ **Backend Setup**
 ```bash
 cd backend
 pip install -r requirements.txt
@@ -419,7 +487,7 @@ python run.py
 ```
 Backend will run on `http://localhost:8000`
 
-3. **Frontend Setup**
+3. 💻 **Frontend Setup**
 ```bash
 cd workspace/shadcn-ui
 pnpm install  # or npm install
@@ -706,7 +774,7 @@ graph LR
 
 <table>
 <tr>
-<td align="center" width="25%">
+<td align="center" width="25%" valign="top">
   <b style="font-size: 18px;">Sairaj Jadhav</b>
   <br />
   <sub style="color: #1E88E5; font-size: 14px;">👨‍💼 PROJECT HEAD</sub>
@@ -718,7 +786,7 @@ graph LR
   <br />
   <sub>📱 +91 935 686 0010</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="25%" valign="top">
   <b style="font-size: 18px;">Vedant Lanjekar</b>
   <br />
   <sub style="color: #1E88E5; font-size: 14px;">🏗️ SYSTEM ARCHITECT</sub>
@@ -730,7 +798,7 @@ graph LR
   <br />
   <sub>📱 +91 907 602 703</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="25%" valign="top">
   <b style="font-size: 18px;">Yash Wase</b>
   <br />
   <sub style="color: #1E88E5; font-size: 14px;">⚙️ BACKEND DEVELOPER</sub>
@@ -741,7 +809,7 @@ graph LR
   <br />
   <sub>📱 +91 749 948 9664</sub>
 </td>
-<td align="center" width="25%">
+<td align="center" width="25%" valign="top">
   <b style="font-size: 18px;">Mrigyisha Sawant</b>
   <br />
   <sub style="color: #1E88E5; font-size: 14px;">🔬 RESEARCH</sub>
@@ -757,6 +825,34 @@ graph LR
 </table>
 
 **🎓 All team members are pursuing Bachelor of Engineering in Artificial Intelligence & Data Science**
+
+</div>
+
+---
+
+---
+
+## 📅 Project Roadmap
+
+<div align="center">
+
+```mermaid
+gantt
+    title Viro-AI Development Timeline
+    dateFormat  YYYY-MM-DD
+    section Phase 1: Foundation
+    Data Acquisition Strategy       :done,    des1, 2024-01-01, 30d
+    Database Architecture           :done,    des2, 2024-02-01, 30d
+    section Phase 2: Core AI
+    Mutation Predictor Model        :active,  des3, 2024-03-01, 60d
+    Drug Analyzer Engine            :active,  des4, 2024-04-01, 60d
+    section Phase 3: Interface
+    3D Visualization Module         :         des5, 2024-06-01, 45d
+    React Dashboard Integration     :         des6, 2024-07-15, 45d
+    section Phase 4: Launch
+    Beta Testing                    :         des7, 2024-09-01, 30d
+    Public Release v1.0             :         des8, 2024-10-01, 1d
+```
 
 </div>
 
