@@ -29,7 +29,7 @@
 
 <!-- Animated SVG DNA Helix -->
 <div align="center">
-  <img src="assets/dna_helix.svg" width="200" height="100" alt="DNA Animation">
+  <img src="readme assets/dna_helix.svg" width="200" height="100" alt="DNA Animation">
 </div>
 
 ---
@@ -218,28 +218,28 @@ graph LR
   <div>
     <h3>🧪 Mutation Prediction</h3>
     <p>AI-powered viral mutation forecasting</p>
-    <img src="assets/feature_mutation.svg" width="60" height="60" alt="Mutation Prediction">
+    <img src="readme assets/feature_mutation.svg" width="60" height="60" alt="Mutation Prediction">
   </div>
 </td>
 <td align="center" width="25%">
   <div>
     <h3>💊 Drug Discovery</h3>
     <p>Automated antidote screening</p>
-    <img src="assets/feature_drug.svg" width="60" height="60" alt="Drug Discovery">
+    <img src="readme assets/feature_drug.svg" width="60" height="60" alt="Drug Discovery">
   </div>
 </td>
 <td align="center" width="25%">
   <div>
     <h3>🎨 3D Visualization</h3>
     <p>Real-time molecular interactions</p>
-    <img src="assets/feature_3d.svg" width="60" height="60" alt="3D Visualization">
+    <img src="readme assets/feature_3d.svg" width="60" height="60" alt="3D Visualization">
   </div>
 </td>
 <td align="center" width="25%">
   <div>
     <h3>📊 Analytics Dashboard</h3>
     <p>Comprehensive project insights</p>
-    <img src="assets/feature_analytics.svg" width="60" height="60" alt="Analytics Dashboard">
+    <img src="readme assets/feature_analytics.svg" width="60" height="60" alt="Analytics Dashboard">
   </div>
 </td>
 </tr>

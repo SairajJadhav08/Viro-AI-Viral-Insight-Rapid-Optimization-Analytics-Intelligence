@@ -1,0 +1,8 @@
+<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="30,10 50,50 10,50" fill="#1E88E5" opacity="0.3">
+    <animateTransform attributeName="transform" type="scale" values="1;1.2;1" dur="2s" repeatCount="indefinite"/>
+  </polygon>
+  <polygon points="30,20 45,45 15,45" fill="#1E88E5">
+    <animateTransform attributeName="transform" type="scale" values="1.2;1;1.2" dur="2s" repeatCount="indefinite"/>
+  </polygon>
+</svg>
