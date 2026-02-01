@@ -1,9 +1,13 @@
 """
-Test script to manually process project 20 and see what happens
+Test script to manually process project 20 and see what happens.
+Run from backend dir: python scripts/test_process_project_20.py
 """
 import sys
 import os
-sys.path.insert(0, os.path.dirname(__file__))
+# Add backend to path so "from app.xxx" works
+_script_dir = os.path.dirname(os.path.abspath(__file__))
+_backend_dir = os.path.dirname(_script_dir)
+sys.path.insert(0, _backend_dir)
 
 from app.database import SessionLocal
 from app.models.project import Project

@@ -7,8 +7,8 @@ import os
 import traceback
 from pathlib import Path
 
-# Add backend to path
-sys.path.insert(0, str(Path(__file__).parent))
+# Add backend to path (scripts/ -> backend/)
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 def test_imports():
     """Test all module imports"""

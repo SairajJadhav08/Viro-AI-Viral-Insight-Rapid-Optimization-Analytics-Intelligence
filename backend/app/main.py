@@ -13,8 +13,14 @@ from app.core.exceptions import ViroAIException
 # Import all models to ensure they're registered
 from app.models import User, UserSettings, Project, MutationResult, DrugCandidateResult, ModificationResult, AuthToken
 
-# Create database tables
-Base.metadata.create_all(bind=engine)
+# Create database tables (ignore if tables already exist, e.g. from migrations)
+from sqlalchemy.exc import OperationalError
+try:
+    Base.metadata.create_all(bind=engine)
+except OperationalError as e:
+    if "already exists" not in str(e).lower():
+        raise
+    logger.info("Database tables already exist, skipping create_all")
 
 # Create FastAPI app
 app = FastAPI(

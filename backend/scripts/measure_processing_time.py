@@ -1,10 +1,15 @@
 """
-Script to measure actual ML processing time
+Script to measure actual ML processing time.
+Run from backend dir: python scripts/measure_processing_time.py
 """
 import sys
 import os
 import time
-sys.path.insert(0, os.path.dirname(__file__))
+
+# Add backend to path so "from app.xxx" works when run from backend/scripts/
+_script_dir = os.path.dirname(os.path.abspath(__file__))
+_backend_dir = os.path.dirname(_script_dir)
+sys.path.insert(0, _backend_dir)
 
 from app.database import SessionLocal
 from app.models.project import Project
@@ -101,4 +106,3 @@ def measure_processing_time():
 
 if __name__ == "__main__":
     measure_processing_time()
-

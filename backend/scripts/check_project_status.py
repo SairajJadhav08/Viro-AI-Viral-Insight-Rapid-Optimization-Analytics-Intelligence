@@ -1,11 +1,14 @@
 """
-Script to check the status of the latest SARS-CoV-2 project
+Script to check the status of the latest SARS-CoV-2 project.
+Run from backend dir: python scripts/check_project_status.py
 """
 import sqlite3
 from pathlib import Path
 from datetime import datetime
 
-db_path = Path("Viroai_DataBase/viroai.db")
+# Repo root (backend/scripts -> backend -> repo root)
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+db_path = PROJECT_ROOT / "Viroai_DataBase" / "viroai.db"
 conn = sqlite3.connect(str(db_path))
 cursor = conn.cursor()
 
@@ -83,4 +86,3 @@ else:
     print("No SARS-CoV-2 project found in database.")
 
 conn.close()
-
